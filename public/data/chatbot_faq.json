@@ -1,0 +1,96 @@
+{
+  "botName": "VerseBot",
+  "welcomeMessage": "Hello fellow fan! 👋 I'm VerseBot, your FandomVerse navigator. Ask me anything about Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga, upcoming events, or merchandise!",
+  "quickReplies": [
+    "🔥 Recommend top Anime",
+    "🎮 Best RPG games to play",
+    "📅 Upcoming fandom events",
+    "🍿 Watch latest trailers",
+    "🛍 How does the cart work?",
+    "🔖 How to bookmark & save notes?",
+    "🎤 Tell me about K-Pop groups",
+    "🦸 Marvel vs DC Comics",
+    "✨ What is FandomVerse?"
+  ],
+  "faqDatabase": [
+    {
+      "keywords": ["anime", "manga", "shonen", "jujutsu", "demon slayer", "naruto", "luffy", "gojo"],
+      "question": "What anime and manga content is available on FandomVerse?",
+      "answer": "We have comprehensive hubs for Anime and Manga! You can explore character profiles for Gojo, Naruto, Tanjiro, and Luffy; browse high-resolution galleries, watch trailers for the Infinity Castle Arc, and read featured articles examining modern animation studios like MAPPA and ufotable.",
+      "suggestedCategory": "anime",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["game", "gaming", "rpg", "witcher", "geralt", "master chief", "halo", "kratos", "gta", "elden ring"],
+      "question": "Where can I find gaming news and character profiles?",
+      "answer": "Jump straight into our Gaming Hub! We feature legendary characters like Geralt of Rivia, Master Chief, and Kratos, along with trailers for GTA VI and deep-dive lore analysis articles on open-world game design.",
+      "suggestedCategory": "gaming",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["movie", "movies", "cinema", "film", "hollywood", "avatar", "dune", "nolan", "batman"],
+      "question": "Tell me about the Movies section.",
+      "answer": "Our Movies Hub spotlights blockbusters, cinematic universes, and master filmmakers. Check out character bios for Iron Man, Neo, and Aragorn, watch trailers for Avatar: Fire and Ash, and read about why practical IMAX cinematography is back!",
+      "suggestedCategory": "movies",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["tv", "show", "series", "stranger things", "breaking bad", "eleven", "walter white", "jon snow", "peaky"],
+      "question": "What TV Shows are featured here?",
+      "answer": "The TV Shows Hub covers prestige streaming classics like Stranger Things, Breaking Bad, Game of Thrones, and Peaky Blinders. You can read cast breakdowns, check out watch parties, and explore character traits for Eleven, Heisenberg, and Tommy Shelby.",
+      "suggestedCategory": "tv-shows",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["kpop", "k-pop", "bts", "blackpink", "stray kids", "aespa", "army", "jennie", "felix", "karina", "rm"],
+      "question": "Tell me about the K-Pop section!",
+      "answer": "Annyeong! 💜 Our K-Pop Hub is filled with idol profiles (BTS RM, BLACKPINK Jennie, Stray Kids Felix, aespa Karina, Taemin), official lightsticks in our fan shop, concert gallery photos, and articles exploring Hallyu choreography and fan culture.",
+      "suggestedCategory": "k-pop",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["comic", "comics", "marvel", "dc", "spider-man", "superman", "wolverine", "deadpool"],
+      "question": "What comic books and heroes do you showcase?",
+      "answer": "Our Comics Hub bridges Marvel, DC, and indie sequential art! Read character profiles for Spider-Man, Batman, Wonder Woman, Wolverine, and Deadpool; learn about San Diego Comic-Con, and explore the history of shared comic multiverses.",
+      "suggestedCategory": "comics",
+      "suggestedPage": "category-hub"
+    },
+    {
+      "keywords": ["event", "events", "convention", "con", "expo", "comic-con", "anime expo", "gamescom"],
+      "question": "Where can I find upcoming conventions and events?",
+      "answer": "Visit our Events Highlights page! We track over 21 past and upcoming events including Anime Expo in Los Angeles, EVO Championship in Las Vegas, Cannes Film Festival, and Jump Festa Tokyo.",
+      "suggestedPage": "events"
+    },
+    {
+      "keywords": ["trailer", "trailers", "teaser", "video", "clip"],
+      "question": "How do I watch trailers?",
+      "answer": "Check out our dedicated Trailers section! You can filter trailers by category (Anime, Gaming, Movies, TV, K-Pop, Comics, Manga) and by status (Upcoming vs. Recently Released).",
+      "suggestedPage": "trailers"
+    },
+    {
+      "keywords": ["merchandise", "merch", "shop", "cart", "buy", "store", "t-shirt", "figure", "price"],
+      "question": "How does the merchandise shopping cart work?",
+      "answer": "You can browse officially inspired fan merchandise (kimonos, figures, lightsticks, hoodies) in our Merch Shop! Add any product to your temporary shopping cart to see automatic subtotal, tax, and discount calculations. Please note: per SRS guidelines, actual payment is disabled.",
+      "suggestedPage": "merchandise"
+    },
+    {
+      "keywords": ["bookmark", "bookmarks", "favorite", "favorites", "note", "notes", "export"],
+      "question": "How does the Content Bookmarking System work?",
+      "answer": "Click the heart/bookmark icon on any article, character, event, or merchandise item. Your bookmarks are saved in your browser's Local Storage. You can also write personal session notes (saved in Session Storage) and click 'Export Bookmarks' to download your list as a formatted file!",
+      "suggestedPage": "bookmarks"
+    },
+    {
+      "keywords": ["fandomverse", "about", "who are you", "what is this", "aptech", "website"],
+      "question": "What is FandomVerse?",
+      "answer": "FandomVerse is a centralized, responsive Single Page Application (SPA) designed for the Aptech TechWiz competition. It unites 7 massive fandom categories (Anime, Gaming, Movies, TV, K-Pop, Comics, Manga) into one seamless, visually rich entertainment portal.",
+      "suggestedPage": "about"
+    },
+    {
+      "keywords": ["contact", "help", "support", "location", "map", "gps"],
+      "question": "How do I contact the team or find location?",
+      "answer": "Head over to our Contact Us page! You can send us a message via the responsive contact form, view our headquarters on the interactive Google Map, and test the GPS geolocation coordinate simulator.",
+      "suggestedPage": "contact"
+    }
+  ],
+  "defaultFallback": "That sounds interesting! 🌟 You can browse our 7 category hubs (Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga) using the top navigation bar, use the Global Search tool, or check out our Merch Shop and Events calendar."
+}

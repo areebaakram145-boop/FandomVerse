@@ -1,0 +1,393 @@
+[
+  {
+    "id": "char-anime-1",
+    "category": "anime",
+    "name": "Naruto Uzumaki",
+    "franchise": "Naruto Shippuden",
+    "role": "Seventh Hokage & Nine-Tails Jinchuriki",
+    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+    "biography": "An orphaned ninja who endured ostracism and prejudice in his youth, Naruto persevered with an unyielding ninja way ('never go back on your word'). He mastered Sage Mode and the Nine-Tails chakra to save the Shinobi world and achieve his dream of becoming Hokage.",
+    "traits": ["Indomitable Will", "Rasengan Master", "Sage of Six Paths", "Loyal Friend"],
+    "quote": "If you don't like your destiny, don't accept it. Instead, have the courage to change it the way you want it to be!"
+  },
+  {
+    "id": "char-anime-2",
+    "category": "anime",
+    "name": "Satoru Gojo",
+    "franchise": "Jujutsu Kaisen",
+    "role": "Special Grade Jujutsu Sorcerer",
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "biography": "The strongest sorcerer alive, boasting the legendary Six Eyes and the Limitless cursed technique. Despite his overwhelming godly power and playful demeanor, Gojo is dedicated to nurturing a new generation of sorcerers to overhaul the corrupt jujutsu society.",
+    "traits": ["Six Eyes", "Infinity Technique", "Domain Expansion: Infinite Void", "Charismatic Mentor"],
+    "quote": "Don't worry, I'm the strongest there is."
+  },
+  {
+    "id": "char-anime-3",
+    "category": "anime",
+    "name": "Tanjiro Kamado",
+    "franchise": "Demon Slayer (Kimetsu no Yaiba)",
+    "role": "Demon Slayer & Sun Breathing Practitioner",
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "biography": "A kind-hearted boy who becomes a demon slayer after his family is slaughtered and his sister Nezuko turned into a demon. Driven by boundless empathy, Tanjiro wields Water Breathing and the ancient Hinokami Kagura to defeat demons while mourning their lost humanity.",
+    "traits": ["Keen Sense of Smell", "Sun Breathing", "Compassionate Heart", "Hard Forehead"],
+    "quote": "No matter how many people you may lose, you have no choice but to go on living."
+  },
+  {
+    "id": "char-anime-4",
+    "category": "anime",
+    "name": "Monkey D. Luffy",
+    "franchise": "One Piece",
+    "role": "Captain of the Straw Hat Pirates & Emperor of the Sea",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "biography": "With the powers of rubber gained from the Mythical Hito Hito no Mi (Model: Nika), Luffy sails across the treacherous Grand Line alongside his beloved crew in pursuit of the ultimate treasure, the One Piece, to become the freest man alive.",
+    "traits": ["Gear 5 Joyboy Awakening", "Conqueror's Haki", "Unshakable Optimism", "Love for Meat"],
+    "quote": "If you don't take risks, you can't create a future!"
+  },
+  {
+    "id": "char-anime-5",
+    "category": "anime",
+    "name": "Eren Yeager",
+    "franchise": "Attack on Titan",
+    "role": "Attack & Founding Titan Wielder",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "biography": "Vowing to wipe out every Titan after witnessing the fall of Wall Maria, Eren discovers he possesses the power of the Titans. As revelations about the world beyond Paradis unfold, Eren transforms into a complex force driven to fight for his people's freedom at all costs.",
+    "traits": ["Founding Titan", "Future Sight", "Relentless Determination", "Complex Ideology"],
+    "quote": "If you win, you live. If you lose, you die. If you don't fight, you can't win!"
+  },
+
+  {
+    "id": "char-gaming-1",
+    "category": "gaming",
+    "name": "Geralt of Rivia",
+    "franchise": "The Witcher 3: Wild Hunt",
+    "role": "Master Witcher of the School of the Wolf",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "biography": "A mutated monster hunter known as the White Wolf. Enhanced with superhuman reflexes, alchemical potions, and Witcher signs, Geralt navigates moral grey areas across the war-torn Northern Realms while protecting his adopted daughter, Ciri.",
+    "traits": ["Silver & Steel Swordsmanship", "Signs Magic", "Mutant Physiology", "Dry Humor"],
+    "quote": "Evil is evil. Lesser, greater, middling... If I'm to choose between one evil and another, I'd rather not choose at all."
+  },
+  {
+    "id": "char-gaming-2",
+    "category": "gaming",
+    "name": "Master Chief (John-117)",
+    "franchise": "Halo",
+    "role": "SPARTAN-II Commando & Savior of Humanity",
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80",
+    "biography": "A towering cybernetically augmented super-soldier encased in legendary Mjolnir powered armor. Master Chief stood as humanity's primary bulwark against the alien Covenant hegemony and the parasitic Flood across the ancient Halo rings.",
+    "traits": ["Mjolnir Powered Armor", "Tactical Genius", "Extraordinary Luck", "Cortana Partner"],
+    "quote": "I need a weapon."
+  },
+  {
+    "id": "char-gaming-3",
+    "category": "gaming",
+    "name": "Kratos",
+    "franchise": "God of War",
+    "role": "Former Greek God of War & Norse Protector",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "biography": "After wreaking vengeance upon the Olympus pantheon in his violent past, Kratos seeks peace in the snowy Norse realms. As a stoic father to Atreus, he wields the Leviathan Axe and Blades of Chaos to break cycles of familial tragedy.",
+    "traits": ["Leviathan Axe", "Spartan Rage", "Godly Strength", "Stern Fatherhood"],
+    "quote": "Do not be sorry. Be better."
+  },
+  {
+    "id": "char-gaming-4",
+    "category": "gaming",
+    "name": "Lara Croft",
+    "franchise": "Tomb Raider",
+    "role": "Archaeologist, Adventurer & Survivor",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "biography": "A brilliantly educated British aristocrat who trades high society for perilous expeditions into ancient ruins, forgotten tombs, and deadly wildernesses. Armed with twin pistols, survival bows, and athletic prowess, she uncovers the world's deepest archaeological mysteries.",
+    "traits": ["Acrobatic Agility", "Dual Pistols", "Archaeological Intellect", "Survival Expertise"],
+    "quote": "A famous explorer once said, that the extraordinary is in what we do, not who we are."
+  },
+  {
+    "id": "char-gaming-5",
+    "category": "gaming",
+    "name": "Cloud Strife",
+    "franchise": "Final Fantasy VII",
+    "role": "Ex-SOLDIER First Class & Mercenary",
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "biography": "Wielding the massive Buster Sword, Cloud was hired by eco-terrorist group AVALANCHE to fight the corrupt Shinra Electric Power Company. Confronted by fractured memories and his dark nemesis Sephiroth, Cloud discovers his true identity to save the Planet.",
+    "traits": ["Buster Sword", "Mako Infusion", "Limit Breaks: Omnislash", "Stoic Hero"],
+    "quote": "Stay where you belong... in my memories."
+  },
+
+  {
+    "id": "char-movies-1",
+    "category": "movies",
+    "name": "Tony Stark (Iron Man)",
+    "franchise": "Marvel Cinematic Universe",
+    "role": "Genius, Billionaire, Playboy, Philanthropist",
+    "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80",
+    "biography": "Following a life-altering abduction, weapons manufacturer Tony Stark constructed a high-tech suit of powered armor powered by an Arc Reactor. As Iron Man, he spearheaded the Avengers and ultimately made the ultimate sacrifice to protect the universe from Thanos.",
+    "traits": ["Mark LXXXV Armor", "Nanotechnology", "Super-Genius Intellect", "Heroic Sacrifice"],
+    "quote": "I am Iron Man."
+  },
+  {
+    "id": "char-movies-2",
+    "category": "movies",
+    "name": "Neo (Thomas Anderson)",
+    "franchise": "The Matrix",
+    "role": "The One & Savior of Zion",
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
+    "biography": "A computer programmer chosen to wake from humanity's simulated reality. Guided by Morpheus and Trinity, Neo realizes his anomaly nature gives him absolute dominion over the Matrix's simulated physics, bullet time, and code manipulation.",
+    "traits": ["Bullet Time", "Flight & Telekinesis", "Code Vision", "Martial Arts Master"],
+    "quote": "I know kung fu."
+  },
+  {
+    "id": "char-movies-3",
+    "category": "movies",
+    "name": "Luke Skywalker",
+    "franchise": "Star Wars",
+    "role": "Jedi Knight & Galactic Hero",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "biography": "A farm boy from Tatooine who discovered his heritage as the son of Anakin Skywalker. Under the tutelage of Obi-Wan Kenobi and Master Yoda, Luke mastered the Force, redeemed his father, and brought balance back to the galaxy against the Galactic Empire.",
+    "traits": ["Green Lightsaber", "Force Mastery", "X-Wing Ace Pilot", "Compassion"],
+    "quote": "I am a Jedi, like my father before me."
+  },
+  {
+    "id": "char-movies-4",
+    "category": "movies",
+    "name": "Bruce Wayne (The Dark Knight)",
+    "franchise": "The Dark Knight Trilogy",
+    "role": "Gotham's Caped Crusader",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "biography": "Billionaire Bruce Wayne turned personal tragedy into a symbol of fear for Gotham's underworld. Relying on sheer discipline, martial perfection, and Wayne Enterprises tech, he stands between Gotham City and forces of chaos like the Joker and Bane.",
+    "traits": ["Master Detective", "Batmobile & Gadgets", "Peak Human Condition", "Moral Code"],
+    "quote": "It's not who I am underneath, but what I do that defines me."
+  },
+  {
+    "id": "char-movies-5",
+    "category": "movies",
+    "name": "Aragorn (Elessar)",
+    "franchise": "The Lord of the Rings",
+    "role": "Chieftain of the Dúnedain & High King of Gondor",
+    "image": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=600&q=80",
+    "biography": "Known in the wild as the ranger Strider, Aragorn hid his true royal heritage until Sauron's threat necessitated his claim. Wielding Andúril, Flame of the West, he united Men, Elves, and Dwarves to defeat the Dark Lord and reclaim his rightful throne.",
+    "traits": ["Andúril Sword", "Dúnedain Longevity", "Battle Tactician", "Humble Nobility"],
+    "quote": "A day may come when the courage of Men fails, but it is not this day!"
+  },
+
+  {
+    "id": "char-tv-1",
+    "category": "tv-shows",
+    "name": "Eleven (Jane Hopper)",
+    "franchise": "Stranger Things",
+    "role": "Hawkins Lab Escapee & Upside Down Defender",
+    "image": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=600&q=80",
+    "biography": "Raised in isolation within Hawkins National Laboratory as a test subject, Eleven possesses astonishing psychokinetic and telepathic powers. Along with her loyal circle of friends, she repeatedly battles horrific interdimensional monstrosities from the Upside Down.",
+    "traits": ["Telekinesis", "Remote Viewing", "Dimensional Gate Control", "Love for Eggos"],
+    "quote": "Friends don't lie."
+  },
+  {
+    "id": "char-tv-2",
+    "category": "tv-shows",
+    "name": "Walter White (Heisenberg)",
+    "franchise": "Breaking Bad",
+    "role": "High School Chemist turned Drug Kingpin",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
+    "biography": "Diagnosed with terminal lung cancer, an underpaid chemistry teacher teams up with former student Jesse Pinkman to manufacture pure blue methamphetamine. Over five seasons, his moral descent transforms him into the ruthless criminal mastermind known as Heisenberg.",
+    "traits": ["Chemical Mastery", "Ruthless Strategy", "Porkpie Hat Persona", "Pragmatic Manipulation"],
+    "quote": "I am not in danger, Skyler. I am the danger!"
+  },
+  {
+    "id": "char-tv-3",
+    "category": "tv-shows",
+    "name": "Jon Snow (Aegon Targaryen)",
+    "franchise": "Game of Thrones",
+    "role": "Lord Commander of Night's Watch & King in the North",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "biography": "Raised as Ned Stark's bastard son, Jon dedicated his life to the Night's Watch. Proving his honor against wildlings and White Walkers alike, he united Westeros against the Night King while uncovering his true royal Targaryen bloodline.",
+    "traits": ["Longclaw Valyrian Steel", "Ghost Direwolf", "Uncompromising Honor", "Battle Commander"],
+    "quote": "When the snows fall and the white winds blow, the lone wolf dies, but the pack survives."
+  },
+  {
+    "id": "char-tv-4",
+    "category": "tv-shows",
+    "name": "Thomas Shelby",
+    "franchise": "Peaky Blinders",
+    "role": "Leader of the Peaky Blinders & Member of Parliament",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "biography": "A decorated World War I veteran haunted by trauma who transforms his family's illegal Birmingham betting shop into an international commercial and political empire through razor-sharp intellect, cold calculation, and sheer willpower.",
+    "traits": ["Grand Chessmaster", "War Veteran Grit", "Razor Cap Strategy", "Steely Resolve"],
+    "quote": "There is no rest for me in this world. Perhaps in the next."
+  },
+  {
+    "id": "char-tv-5",
+    "category": "tv-shows",
+    "name": "Sherlock Holmes",
+    "franchise": "Sherlock (BBC)",
+    "role": "High-Functioning Sociopath & Consulting Detective",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "biography": "Armed with lightning-fast deductive reasoning and an expansive 'mind palace', Sherlock operates out of 221B Baker Street alongside Dr. John Watson, deciphering complex criminal puzzles that confound Scotland Yard and thwarting nemesis Jim Moriarty.",
+    "traits": ["Mind Palace", "Deductive Power", "Violin Prodigy", "Observational Genius"],
+    "quote": "The game is on!"
+  },
+
+  {
+    "id": "char-kpop-1",
+    "category": "k-pop",
+    "name": "RM (Kim Nam-joon)",
+    "franchise": "BTS (Bangtan Sonyeondan)",
+    "role": "Leader, Main Rapper & Producer",
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "biography": "The visionary leader of BTS with an IQ of 148, RM is a lyrical philosopher and UN speaker whose introspective songwriting helped propel Korean pop music into a global cultural phenomenon.",
+    "traits": ["Lyrical Genius", "Fluent English", "UN Keynote Speaker", "Charismatic Leader"],
+    "quote": "Please use me. Please use BTS to love yourself."
+  },
+  {
+    "id": "char-kpop-2",
+    "category": "k-pop",
+    "name": "Jennie Kim",
+    "franchise": "BLACKPINK",
+    "role": "Main Rapper, Lead Vocalist & Fashion Icon",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "biography": "A global fashion ambassador and music titan, Jennie commands stadium stages worldwide with BLACKPINK. Known for her razor-sharp flow, magnetic vocals, and trendsetting charisma, she is an undeniable icon of modern pop culture.",
+    "traits": ["Rap Flow", "Stage Presence", "Global Style Trendsetter", "Versatile Vocalist"],
+    "quote": "You can't be brave if you've only had wonderful things happen to you."
+  },
+  {
+    "id": "char-kpop-3",
+    "category": "k-pop",
+    "name": "Felix (Lee Yong-bok)",
+    "franchise": "Stray Kids",
+    "role": "Dancer, Rapper & Sub-Vocalist",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    "biography": "Australian-born Felix captivated millions with his signature deep bass rap tone and electrifying acrobatic dance moves. His warm sunshine personality offstage contrasts thrillingly with his thunderous presence on track anthems like 'God's Menu'.",
+    "traits": ["Iconic Deep Bass Voice", "Freckled Charm", "Powerhouse Dancer", "Baking Enthusiast"],
+    "quote": "Stay makes Stray Kids stay."
+  },
+  {
+    "id": "char-kpop-4",
+    "category": "k-pop",
+    "name": "Karina (Yoo Ji-min)",
+    "franchise": "aespa",
+    "role": "Leader, Main Dancer & Lead Rapper",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80",
+    "biography": "Fronting SM Entertainment's futuristic metaverse group aespa alongside her virtual avatar æ-Karina, she is renowned for her AI-like visual perfection, razor-precise choreography, and powerful vocal dynamics.",
+    "traits": ["Metaverse Avatar Concept", "Precision Choreography", "Visual Prodigy", "Poised Leadership"],
+    "quote": "Trust yourself and dance with everything you have."
+  },
+  {
+    "id": "char-kpop-5",
+    "category": "k-pop",
+    "name": "Taemin (Lee Tae-min)",
+    "franchise": "SHINee / SuperM",
+    "role": "Solo Artist, Main Dancer & Vocalist",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+    "biography": "Widely acknowledged as the 'Idol of Idols', Taemin debuted at age 14 and evolved into one of K-Pop's most revered solo artists, pioneering sensual, fluid choreography and theatrical art-pop spectacles like 'Move' and 'Criminal'.",
+    "traits": ["Pioneering Dance Artistry", "Theatrical Concepts", "Longevity Icon", "Silky Vocals"],
+    "quote": "My goal is to express music that only Taemin can express."
+  },
+
+  {
+    "id": "char-comics-1",
+    "category": "comics",
+    "name": "Spider-Man (Peter Parker)",
+    "franchise": "Marvel Comics",
+    "role": "Friendly Neighborhood Wall-Crawler",
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "biography": "Bitten by a radioactive arachnid, high school student Peter Parker learned the enduring lesson that with great power comes great responsibility. Balancing rent, photojournalism, and superheroics, he remains the most relatable comic hero in history.",
+    "traits": ["Spider-Sense", "Wall-Crawling", "Web-Shooter Inventions", "Witty Banter"],
+    "quote": "With great power there must also come great responsibility."
+  },
+  {
+    "id": "char-comics-2",
+    "category": "comics",
+    "name": "Batman (Bruce Wayne)",
+    "franchise": "DC Comics",
+    "role": "The World's Greatest Detective & Justice League Founder",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "biography": "Swearing an oath on his murdered parents' grave, Bruce trained his mind and body to physical perfection to strike terror into criminals. Operating from the Batcave with butler Alfred Pennyworth, he proves that human intellect can rival gods.",
+    "traits": ["Master Detective", "Martial Arts Mastery", "Contingency Planner", "Indomitable Will"],
+    "quote": "I am vengeance. I am the night. I am Batman!"
+  },
+  {
+    "id": "char-comics-3",
+    "category": "comics",
+    "name": "Wonder Woman (Diana Prince)",
+    "franchise": "DC Comics",
+    "role": "Amazonian Princess of Themyscira & Champion of Truth",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+    "biography": "Sculpted from clay and blessed by Olympian gods, Princess Diana ventured from the hidden paradise island of Themyscira to champion peace, justice, and gender equality in Man's World wielding the Lasso of Truth and Godkiller gear.",
+    "traits": ["Lasso of Truth", "Bracelets of Submission", "Demigod Strength", "Compassionate Warrior"],
+    "quote": "I will fight for those who cannot fight for themselves."
+  },
+  {
+    "id": "char-comics-4",
+    "category": "comics",
+    "name": "Wolverine (Logan)",
+    "franchise": "Marvel X-Men",
+    "role": "Weapon X Mutant & X-Man",
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+    "biography": "A century-old Canadian mutant endowed with animal-keen senses, an accelerated healing factor, and retractable claws bonded with indestructible Adamantium. Despite a feral nature, Logan repeatedly fights for Professor X's dream of mutant-human harmony.",
+    "traits": ["Adamantium Claws & Skeleton", "Healing Factor", "Enhanced Senses", "Berserker Rage"],
+    "quote": "I'm the best there is at what I do, but what I do best isn't very nice."
+  },
+  {
+    "id": "char-comics-5",
+    "category": "comics",
+    "name": "Deadpool (Wade Wilson)",
+    "franchise": "Marvel Comics",
+    "role": "The Merc with a Mouth",
+    "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80",
+    "biography": "Subjected to the experimental Weapon X program to cure his cancer, former mercenary Wade Wilson gained an outrageous regenerative healing factor alongside total mental instability. He famously breaks the fourth wall, addressing comic readers and judges directly.",
+    "traits": ["Fourth-Wall Breaking", "Supernatural Regeneration", "Dual Katanas & Guns", "Irreverent Satire"],
+    "quote": "Maximum effort!"
+  },
+
+  {
+    "id": "char-manga-1",
+    "category": "manga",
+    "name": "Ken Kaneki",
+    "franchise": "Tokyo Ghoul",
+    "role": "One-Eyed Ghoul & King of the Ghouls",
+    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+    "biography": "A shy bookworm university student who was turned into a half-ghoul after an emergency organ transplant. Forced to navigate a cruel underworld where ghouls feast on human flesh, Kaneki endures torturous metamorphosis to bridge peace between species.",
+    "traits": ["Rinkaku Kagune", "Ghoul Physiology", "Kakuja Evolution", "Psychological Depth"],
+    "quote": "I'm not the protagonist of a novel. If you were to write a story with me in the lead role, it would certainly be... a tragedy."
+  },
+  {
+    "id": "char-manga-2",
+    "category": "manga",
+    "name": "Sung Jin-woo",
+    "franchise": "Solo Leveling (Manhwa)",
+    "role": "Shadow Monarch & S-Rank Hunter",
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "biography": "Originally known as 'Humanity's Weakest Hunter', Jin-woo survived a horrific double dungeon trial and was chosen by the 'System'. Gaining the unique ability to level up infinitely, he reanimates defeated monsters into an undying shadow army.",
+    "traits": ["Shadow Extraction ('Arise')", "Infinite Leveling", "Monarch Power", "Shadow Army"],
+    "quote": "Arise."
+  },
+  {
+    "id": "char-manga-3",
+    "category": "manga",
+    "name": "Guts",
+    "franchise": "Berserk",
+    "role": "The Black Swordsman",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "biography": "Born from a hanged corpse, Guts endured a life of brutal mercenary combat. Betrayed by his commander Griffith during the apocalyptic Eclipse, he brands his flesh and wields the titanic Dragonslayer sword on a solitary crusade against demonic Apostles.",
+    "traits": ["Dragonslayer Ultra-Greatsword", "Berserker Armor", "Prosthetic Arm Cannon", "Unrivaled Human Endurance"],
+    "quote": "He who acts in anger never lacks for weapons."
+  },
+  {
+    "id": "char-manga-4",
+    "category": "manga",
+    "name": "Denji",
+    "franchise": "Chainsaw Man",
+    "role": "Public Safety Devil Hunter & Chainsaw Devil",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "biography": "Living in squalor to pay off his deceased father's yakuza debt, Denji merges with his chainsaw devil canine Pochita after being betrayed. With cord handles sticking out of his chest, he rips chainsaws from his head and arms to pursue simple pleasures like jam toast.",
+    "traits": ["Chainsaw Protrusions", "Devil Hybrid Immortality", "Blood Consumption Healing", "Unfiltered Honesty"],
+    "quote": "If there's gonna be a dream, I want to dream big!"
+  },
+  {
+    "id": "char-manga-5",
+    "category": "manga",
+    "name": "Sailor Moon (Usagi Tsukino)",
+    "franchise": "Pretty Guardian Sailor Moon",
+    "role": "Soldier of Love and Justice & Princess Serenity",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "biography": "An ordinary, clumsy schoolgirl whose encounter with talking cat Luna unlocks her destiny as Sailor Moon. Guided by friendship and maternal love, she awakens her past life as Moon Princess Serenity to protect Earth with the Silver Crystal.",
+    "traits": ["Silver Crystal Light", "Moon Tiara Magic", "Reincarnated Royalty", "Compassion over Vengeance"],
+    "quote": "In the name of the Moon, I will punish you!"
+  }
+]

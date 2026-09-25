@@ -1,0 +1,261 @@
+[
+  {
+    "id": "media-anime-1",
+    "category": "anime",
+    "type": "trailer",
+    "title": "Demon Slayer: Kimetsu no Yaiba - Infinity Castle Arc Official Movie Trailer",
+    "duration": "02:18",
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Aniplex & ufotable",
+    "description": "Witness the climactic showdown as Tanjiro and the Hashira descend into the sprawling interdimensional labyrinth of the Infinity Castle to face Muzan Kibutsuji."
+  },
+  {
+    "id": "media-anime-2",
+    "category": "anime",
+    "type": "interview",
+    "title": "Inside MAPPA Studio: Animating the Fiercest Battles of Jujutsu Kaisen",
+    "duration": "14:45",
+    "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Tokyo Anime Creators Guild",
+    "description": "Key animation directors and storyboard artists break down the intense Shibuya Incident arc fight sequences frame by frame."
+  },
+  {
+    "id": "media-anime-3",
+    "category": "anime",
+    "type": "podcast",
+    "title": "Otaku Radio Hour #142: Spring 2025 Seasonal Anime Tier List",
+    "duration": "48:20",
+    "thumbnail": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "author": "FandomVerse Audio Cast",
+    "description": "Our panel debates sleeper hits, hype sequels, and the biggest visual spectacles dominating the new anime season."
+  },
+  {
+    "id": "media-anime-4",
+    "category": "anime",
+    "type": "fan content",
+    "title": "One Piece: Gear 5 Awakening - 4K Fan Remaster & Orchestral Tribute",
+    "duration": "04:32",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "GrandLineAMV",
+    "description": "A breathtaking cinematic edit combining classic drumbeats of liberation with high-speed keyframe motion."
+  },
+
+  {
+    "id": "media-gaming-1",
+    "category": "gaming",
+    "type": "trailer",
+    "title": "Grand Theft Auto VI: Official Gameplay Reveal Trailer",
+    "duration": "01:31",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Rockstar Games",
+    "description": "Welcome to the neon-drenched vice state of Leonida. Experience next-generation open world fidelity, dual protagonists Lucia and Jason, and unprecedented crowd simulation."
+  },
+  {
+    "id": "media-gaming-2",
+    "category": "gaming",
+    "type": "interview",
+    "title": "Hidetaka Miyazaki on the Philosophy of Challenge and Victory in Elden Ring",
+    "duration": "22:10",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "FromSoftware Studios",
+    "description": "The visionary director discusses crafting the Lands Between, overcoming despair through repeated trials, and the joy of mutual discovery."
+  },
+  {
+    "id": "media-gaming-3",
+    "category": "gaming",
+    "type": "podcast",
+    "title": "Respawn Weekly: The Future of Cloud Gaming & Unreal Engine 5.5",
+    "duration": "54:12",
+    "thumbnail": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "author": "Pixel Talk Media",
+    "description": "Discussing graphics pipeline breakthroughs, handheld console rivalries, and what next-gen physics mean for competitive play."
+  },
+  {
+    "id": "media-gaming-4",
+    "category": "gaming",
+    "type": "fan content",
+    "title": "God of War Ragnarok: Blades of Chaos Metal Guitar Cover",
+    "duration": "03:50",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "ValhallaRiffs",
+    "description": "A savage 8-string electric guitar tribute to Bear McCreary's legendary Nordic battle themes."
+  },
+
+  {
+    "id": "media-movies-1",
+    "category": "movies",
+    "type": "trailer",
+    "title": "Avatar 3: Fire and Ash - Official Theatrical Teaser",
+    "duration": "02:40",
+    "thumbnail": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "20th Century Studios & James Cameron",
+    "description": "Explore the untamed volcanic biomes of Pandora and encounter the enigmatic Ash People in Cameron's visual opus."
+  },
+  {
+    "id": "media-movies-2",
+    "category": "movies",
+    "type": "interview",
+    "title": "Denis Villeneuve & Hans Zimmer: The Sound and Fury of Dune",
+    "duration": "18:05",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Academy Conversations",
+    "description": "How custom sonic instruments, Tibetan chants, and massive brass instruments shaped the sweeping desert auditory world of Arrakis."
+  },
+  {
+    "id": "media-movies-3",
+    "category": "movies",
+    "type": "podcast",
+    "title": "The Projectionist: Classic Sci-Fi Cinema Deep Dive",
+    "duration": "41:30",
+    "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "author": "Cinephile Hub",
+    "description": "Analyzing Blade Runner, The Matrix, and 2001: A Space Odyssey's enduring impact on futuristic cinema."
+  },
+
+  {
+    "id": "media-tv-1",
+    "category": "tv-shows",
+    "type": "trailer",
+    "title": "Stranger Things 5: The Final Battle for Hawkins Teaser",
+    "duration": "02:15",
+    "thumbnail": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Netflix Originals",
+    "description": "The countdown begins. Hawkins has split open and Vecna's final strike approaches as the party gathers for one last ride."
+  },
+  {
+    "id": "media-tv-2",
+    "category": "tv-shows",
+    "type": "interview",
+    "title": "Bryan Cranston on Crafting Walter White's Tragic Transformation",
+    "duration": "16:40",
+    "thumbnail": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Television Academy Talks",
+    "description": "Cranston details the precise emotional shifts, wardrobe color motifs, and posture changes that forged Heisenberg."
+  },
+  {
+    "id": "media-tv-3",
+    "category": "tv-shows",
+    "type": "podcast",
+    "title": "Binge Buddies: Breaking Down The Best TV Plot Twists",
+    "duration": "37:55",
+    "thumbnail": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "author": "ScreenTalk Network",
+    "description": "From the Red Wedding to Lost's bunker hatch, we debate the television moments that left the entire world speechless."
+  },
+
+  {
+    "id": "media-kpop-1",
+    "category": "k-pop",
+    "type": "trailer",
+    "title": "BTS: '2026 Worldwide Reunion Stadium Tour' Official Announcement",
+    "duration": "01:45",
+    "thumbnail": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "BIGHIT MUSIC",
+    "description": "All seven members reunite on stage for the biggest global stadium tour in history following completion of military enlistment."
+  },
+  {
+    "id": "media-kpop-2",
+    "category": "k-pop",
+    "type": "interview",
+    "title": "BLACKPINK: Born Pink Tour Diary & Studio Recording Diaries",
+    "duration": "12:30",
+    "thumbnail": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "YG Entertainment",
+    "description": "Jennie, Jisoo, Rosé, and Lisa open up about their record-breaking world tour, personal hobbies, and stage production."
+  },
+  {
+    "id": "media-kpop-3",
+    "category": "k-pop",
+    "type": "podcast",
+    "title": "Daebak Beats: K-Pop Choreography Masterclasses & Chart Analysis",
+    "duration": "35:10",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "author": "Hallyu Wave Radio",
+    "description": "Analyzing Stray Kids' acrobatic formations, aespa's viral dance challenges, and fourth-gen vocal prowess."
+  },
+
+  {
+    "id": "media-comics-1",
+    "category": "comics",
+    "type": "trailer",
+    "title": "Avengers: Secret Wars - Marvel Studios First Look Teaser",
+    "duration": "02:22",
+    "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Marvel Studios",
+    "description": "When realities collapse into Battleworld, comic icons from across the multiverse collide in an unprecedented war for survival."
+  },
+  {
+    "id": "media-comics-2",
+    "category": "comics",
+    "type": "interview",
+    "title": "Comic Legend Todd McFarlane: The Evolution of Spawn & Spider-Man",
+    "duration": "20:40",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Comic-Con Special Presentations",
+    "description": "The creator of Spawn talks about breaking away from the Big Two to found Image Comics and revolutionized comic illustration."
+  },
+  {
+    "id": "media-comics-3",
+    "category": "comics",
+    "type": "podcast",
+    "title": "Panel to Panel: Marvel vs DC Modern Comic Eras",
+    "duration": "44:00",
+    "thumbnail": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "author": "Graphic Novelty Radio",
+    "description": "Comparing Jonathan Hickman's Krakoa X-Men saga against Scott Snyder's iconic Batman runs."
+  },
+
+  {
+    "id": "media-manga-1",
+    "category": "manga",
+    "type": "trailer",
+    "title": "Solo Leveling Season 2: Arise from the Shadow Official Trailer",
+    "duration": "02:04",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "A-1 Pictures & Redice Studio",
+    "description": "Sung Jin-woo steps into the world stage as monarch powers awaken. The shadows answer their king's call."
+  },
+  {
+    "id": "media-manga-2",
+    "category": "manga",
+    "type": "interview",
+    "title": "Tite Kubo on Drawing Bleach: Thousand-Year Blood War Manga Panels",
+    "duration": "15:20",
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=700&q=80",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "author": "Shueisha Manga Channel",
+    "description": "Tite Kubo discusses character silhouettes, negative white space in manga layouts, and supervising the anime adaptation."
+  },
+  {
+    "id": "media-manga-3",
+    "category": "manga",
+    "type": "podcast",
+    "title": "The Weekly Shonen Podcast: Chainsaw Man & Berserk Legacy",
+    "duration": "51:30",
+    "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    "author": "Manga Lounge Network",
+    "description": "Deep thematic examination of dark fantasy manga, Kentaro Miura's lasting legacy, and Tatsuki Fujimoto's cinematic paneling."
+  }
+]

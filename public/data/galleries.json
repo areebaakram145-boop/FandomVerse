@@ -1,0 +1,218 @@
+[
+  {
+    "id": "gal-anime-1",
+    "category": "anime",
+    "title": "Neon Neo-Tokyo Shinjuku Skyline",
+    "franchise": "Akira & Cyberpunk Edgerunners",
+    "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=500&q=80",
+    "caption": "A breathtaking cinematic shot of future Tokyo drenched in cyan and crimson holographic signage.",
+    "artist": "Kenji Visuals"
+  },
+  {
+    "id": "gal-anime-2",
+    "category": "anime",
+    "title": "Hinokami Kagura Fire Dance",
+    "franchise": "Demon Slayer",
+    "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+    "caption": "Sparks and burning embers dance across the blade in an ancient ceremonial breathing form.",
+    "artist": "Ufotable Tribute"
+  },
+  {
+    "id": "gal-anime-3",
+    "category": "anime",
+    "title": "Thousand Sunny Sailing into Sunset",
+    "franchise": "One Piece",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+    "caption": "Golden ocean reflections as the Straw Hat crew ventures toward the next mysterious Grand Line island.",
+    "artist": "GrandLine Art"
+  },
+
+  {
+    "id": "gal-gaming-1",
+    "category": "gaming",
+    "title": "Night City Cyber Neon Alleys",
+    "franchise": "Cyberpunk 2077",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=500&q=80",
+    "caption": "Ray-traced puddle reflections casting futuristic reflections across Watson District.",
+    "artist": "Digital Dreams"
+  },
+  {
+    "id": "gal-gaming-2",
+    "category": "gaming",
+    "title": "Elden Ring: The Spectral Erdtree",
+    "franchise": "Elden Ring",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=500&q=80",
+    "caption": "The golden canopy of the Erdtree towering over misty Altus Plateau cliffs.",
+    "artist": "Tarnished Vision"
+  },
+  {
+    "id": "gal-gaming-3",
+    "category": "gaming",
+    "title": "Zelda: Tears of the Kingdom Sky Islands",
+    "franchise": "The Legend of Zelda",
+    "imageUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=500&q=80",
+    "caption": "Ancient Zonai architecture floating serenely in the boundless turquoise sky.",
+    "artist": "Hyrule Cartography"
+  },
+
+  {
+    "id": "gal-movies-1",
+    "category": "movies",
+    "title": "Arrakis Desert Storm at Dawn",
+    "franchise": "Dune: Part Two",
+    "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=500&q=80",
+    "caption": "Sweeping sand dunes and spice clouds lit by the harsh light of Arrakis dual suns.",
+    "artist": "Greig Fraser Framing"
+  },
+  {
+    "id": "gal-movies-2",
+    "category": "movies",
+    "title": "Bioluminescent Forests of Pandora",
+    "franchise": "Avatar",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+    "caption": "Luminescent flora glowing under the tranquil moonlight of the moon Pandora.",
+    "artist": "Pandora Exploration"
+  },
+  {
+    "id": "gal-movies-3",
+    "category": "movies",
+    "title": "Gotham City Rainy Gargoyle View",
+    "franchise": "The Batman",
+    "imageUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=500&q=80",
+    "caption": "A gothic monolith standing vigil over the neon-soaked corruption of Gotham.",
+    "artist": "Wayne Shadows"
+  },
+
+  {
+    "id": "gal-tv-1",
+    "category": "tv-shows",
+    "title": "The Red Mist of Hawkins Upside Down",
+    "franchise": "Stranger Things",
+    "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=500&q=80",
+    "caption": "Spreading tendrils and floating spores in the shadowy mirror realm.",
+    "artist": "Hawkins Lab Archives"
+  },
+  {
+    "id": "gal-tv-2",
+    "category": "tv-shows",
+    "title": "Winterfell at Midnight Snowfall",
+    "franchise": "Game of Thrones",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=500&q=80",
+    "caption": "Torches illuminating the ancient granite battlements of the Stark ancestral stronghold.",
+    "artist": "Northern Watch"
+  },
+  {
+    "id": "gal-tv-3",
+    "category": "tv-shows",
+    "title": "Garrison Lane Smoky Streets",
+    "franchise": "Peaky Blinders",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    "caption": "Industrial smoke, cobblestone reflections, and peak caps in 1919 Birmingham.",
+    "artist": "Shelby Heritage"
+  },
+
+  {
+    "id": "gal-kpop-1",
+    "category": "k-pop",
+    "title": "Ocean of Purple Lightsticks at Olympic Stadium",
+    "franchise": "BTS ARMY",
+    "imageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=500&q=80",
+    "caption": "60,000 synchronized Bluetooth lightsticks turning the stadium into a galactic sea.",
+    "artist": "BIGHIT Visuals"
+  },
+  {
+    "id": "gal-kpop-2",
+    "category": "k-pop",
+    "title": "Pink Venom Stage Fireworks Explosion",
+    "franchise": "BLACKPINK",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
+    "caption": "Massive pyrotechnic flashes framing the silhouette of the global headliners.",
+    "artist": "YG Stage Capture"
+  },
+  {
+    "id": "gal-kpop-3",
+    "category": "k-pop",
+    "title": "Cyberpunk Kwangya Metaverse Concept",
+    "franchise": "aespa",
+    "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80",
+    "caption": "Holographic prisms and cyberspace glitch aesthetics from the SM Culture Universe.",
+    "artist": "SM Creative Labs"
+  },
+
+  {
+    "id": "gal-comics-1",
+    "category": "comics",
+    "title": "Spider-Man Manhattan Web Swing Over Times Square",
+    "franchise": "Marvel Comics",
+    "imageUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80",
+    "caption": "A high-angle vertigo-inducing web release over the glittering billboard canyons.",
+    "artist": "Marvel Artists Guild"
+  },
+  {
+    "id": "gal-comics-2",
+    "category": "comics",
+    "title": "The Batsignal Illuminating Cloudcover",
+    "franchise": "DC Comics",
+    "imageUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=500&q=80",
+    "caption": "Commissioner Gordon's spotlight cutting through the smog of Gotham City.",
+    "artist": "DC Digital Ink"
+  },
+  {
+    "id": "gal-comics-3",
+    "category": "comics",
+    "title": "X-Men Danger Room Holographic Simulation",
+    "franchise": "Marvel X-Men",
+    "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+    "caption": "Shi'ar holographic technology materializing Sentinel threats for mutant combat training.",
+    "artist": "Krakoan Archives"
+  },
+
+  {
+    "id": "gal-manga-1",
+    "category": "manga",
+    "title": "Sung Jin-woo Commanding the Shadow Legion",
+    "franchise": "Solo Leveling",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+    "caption": "Thousands of blue-flame knights rising from the abyss in answer to 'Arise'.",
+    "artist": "Redice Studio Tribute"
+  },
+  {
+    "id": "gal-manga-2",
+    "category": "manga",
+    "title": "Tokyo Ghoul: Red Spider Lily Field",
+    "franchise": "Tokyo Ghoul",
+    "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=500&q=80",
+    "caption": "The haunting psychological landscape of white hair transformation among crimson lycoris blooms.",
+    "artist": "Ishida Artistry"
+  },
+  {
+    "id": "gal-manga-3",
+    "category": "manga",
+    "title": "Berserk: Eclipse Blood Moon Horizon",
+    "franchise": "Berserk",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+    "caption": "A terrifying cosmic alignment casting an ominous hand reaching toward the heavens.",
+    "artist": "Miura Legacy"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "anime",
+    "name": "Anime",
+    "tagline": "Japanese Animation, Epic Battles & Emotional Journeys",
+    "description": "Immerse yourself in legendary Japanese animation franchises, seasonal anime spotlights, shonen spectacles, and slice-of-life masterpieces.",
+    "themeColor": "#ff4757",
+    "accentBg": "rgba(255, 71, 87, 0.15)",
+    "icon": "Flame",
+    "heroImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Shonen", "Isekai", "Supernatural", "Mecha", "Romance", "Dark Fantasy"],
+    "stats": {
+      "articles": 48,
+      "characters": 120,
+      "fans": "4.2M"
+    }
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "tagline": "Next-Gen Consoles, PC Masterpieces & Esports Arenas",
+    "description": "Your ultimate digital realm for AAA blockbusters, indie gems, esports tournaments, RPG lore guides, and gaming gear reviews.",
+    "themeColor": "#2ed573",
+    "accentBg": "rgba(46, 213, 115, 0.15)",
+    "icon": "Gamepad2",
+    "heroImage": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Action RPG", "Open World", "Esports", "FPS", "Souls-like", "Retro"],
+    "stats": {
+      "articles": 65,
+      "characters": 150,
+      "fans": "6.8M"
+    }
+  },
+  {
+    "id": "movies",
+    "name": "Movies",
+    "tagline": "Cinema Classics, Sci-Fi Epics & Cinematic Universes",
+    "description": "Explore blockbuster franchises, box-office sensations, auteur cinema, behind-the-scenes breakdowns, and upcoming theatrical trailers.",
+    "themeColor": "#ffa502",
+    "accentBg": "rgba(255, 165, 2, 0.15)",
+    "icon": "Clapperboard",
+    "heroImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Sci-Fi", "Superhero", "Action", "Psychological Thriller", "Cyberpunk"],
+    "stats": {
+      "articles": 52,
+      "characters": 110,
+      "fans": "5.5M"
+    }
+  },
+  {
+    "id": "tv-shows",
+    "name": "TV Shows",
+    "tagline": "Prestige Television, Streaming Sensations & Episodic Drama",
+    "description": "Deep-dive episode analyses, theory crafting, cast interviews, and season previews from the golden age of streaming television.",
+    "themeColor": "#1e90ff",
+    "accentBg": "rgba(30, 144, 255, 0.15)",
+    "icon": "Tv",
+    "heroImage": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Drama", "Sci-Fi Mystery", "Crime", "Dark Fantasy", "Anthology"],
+    "stats": {
+      "articles": 41,
+      "characters": 95,
+      "fans": "3.9M"
+    }
+  },
+  {
+    "id": "k-pop",
+    "name": "K-Pop",
+    "tagline": "Hallyu Wave, High-Octane Choreography & Global Idols",
+    "description": "Stay tuned to chart-topping comebacks, concert world tours, fan chant guides, concept teasers, and official lightsticks.",
+    "themeColor": "#ff6b81",
+    "accentBg": "rgba(255, 107, 129, 0.15)",
+    "icon": "Music2",
+    "heroImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Boy Groups", "Girl Groups", "Soloists", "Comebacks", "Dance Practice", "Lightsticks"],
+    "stats": {
+      "articles": 57,
+      "characters": 85,
+      "fans": "7.1M"
+    }
+  },
+  {
+    "id": "comics",
+    "name": "Comics",
+    "tagline": "Graphic Legends, Multiverse Sagas & Iconic Superheroics",
+    "description": "From golden age comic book panels to modern graphic novels, explore Marvel, DC, Image Comics, and indie sequential art.",
+    "themeColor": "#e84118",
+    "accentBg": "rgba(232, 65, 24, 0.15)",
+    "icon": "BookOpen",
+    "heroImage": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Marvel", "DC Comics", "Anti-Hero", "Graphic Novel", "Indie Comic"],
+    "stats": {
+      "articles": 44,
+      "characters": 140,
+      "fans": "4.8M"
+    }
+  },
+  {
+    "id": "manga",
+    "name": "Manga",
+    "tagline": "Serialized Tales, Webtoons & Monochrome Artistry",
+    "description": "Follow weekly chapter discussions, top-rated Korean Manhwa, Chinese Manhua, mangaka spotlights, and adaptation announcements.",
+    "themeColor": "#9c88ff",
+    "accentBg": "rgba(156, 136, 255, 0.15)",
+    "icon": "BookMarked",
+    "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+    "subTags": ["Shonen Manga", "Seinen", "Manhwa", "Webtoon", "Slice of Life"],
+    "stats": {
+      "articles": 39,
+      "characters": 115,
+      "fans": "5.1M"
+    }
+  }
+]
