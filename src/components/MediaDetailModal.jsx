@@ -18,8 +18,8 @@ export default function MediaDetailModal({
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div 
-        className="modal-dialog" 
+      <div
+        className="modal-dialog"
         style={{ maxWidth: '780px' }}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
@@ -30,7 +30,7 @@ export default function MediaDetailModal({
 
         {/* Video Player or Audio Showcase */}
         {isAudio ? (
-          <div 
+          <div
             style={{
               background: 'linear-gradient(135deg, #1e2638, #2a1f42)',
               borderRadius: '12px',
@@ -40,7 +40,7 @@ export default function MediaDetailModal({
               border: '1px solid rgba(255,255,255,0.08)'
             }}
           >
-            <div 
+            <div
               style={{
                 width: '64px',
                 height: '64px',
@@ -78,14 +78,14 @@ export default function MediaDetailModal({
         {/* Media Info */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '0.75rem' }}>
           <div>
-            <span 
-              style={{ 
-                fontSize: '0.72rem', 
-                fontWeight: 700, 
-                textTransform: 'uppercase', 
-                padding: '2px 8px', 
-                borderRadius: '4px', 
-                background: 'rgba(99,102,241,0.2)', 
+            <span
+              style={{
+                fontSize: '0.72rem',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                padding: '2px 8px',
+                borderRadius: '4px',
+                background: 'rgba(99,102,241,0.2)',
                 color: '#a5b4fc',
                 display: 'inline-block',
                 marginBottom: '0.4rem'
@@ -96,8 +96,8 @@ export default function MediaDetailModal({
             <h3 style={{ fontSize: '1.5rem', lineHeight: 1.3 }}>{mediaItem.title}</h3>
           </div>
 
-          <button 
-            type="button" 
+          <button
+            type="button"
             className={`card-bookmark-btn ${isBookmarked ? 'active' : ''}`}
             style={{ position: 'static' }}
             onClick={() => onToggleBookmark(mediaItem)}

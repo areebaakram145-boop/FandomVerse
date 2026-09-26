@@ -19,7 +19,7 @@ export default function AboutPage({ onNavigate }) {
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Info size={28} style={{ color: '#818cf8' }} />
+            <Info size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>About FandomVerse & Technical Architecture</span>
           </h1>
           <p className="section-head-desc">
@@ -44,13 +44,13 @@ export default function AboutPage({ onNavigate }) {
       {/* Technical Architecture Specs */}
       <section style={{ marginBottom: '3rem' }}>
         <h2 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Layers size={22} style={{ color: '#2ed573' }} />
+          <Layers size={22} style={{ color: 'var(--accent-gold)' }} />
           <span>Technical Architecture & Constraints Compliance</span>
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: '1.25rem' }}>
           <div style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#6366f1', marginBottom: '0.75rem', fontWeight: 700 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
               <Code2 size={20} />
               <span>React.js SPA Architecture</span>
             </div>
@@ -60,7 +60,7 @@ export default function AboutPage({ onNavigate }) {
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#2ed573', marginBottom: '0.75rem', fontWeight: 700 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
               <Shield size={20} />
               <span>Zero-Backend Constraint (SRS 1.5)</span>
             </div>
@@ -70,7 +70,7 @@ export default function AboutPage({ onNavigate }) {
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#ffa502', marginBottom: '0.75rem', fontWeight: 700 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
               <Sparkles size={20} />
               <span>Two-Tier Browser Storage</span>
             </div>
@@ -81,7 +81,7 @@ export default function AboutPage({ onNavigate }) {
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#ec4899', marginBottom: '0.75rem', fontWeight: 700 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
               <Cpu size={20} />
               <span>Rule-Based AI Assistant</span>
             </div>
@@ -95,14 +95,14 @@ export default function AboutPage({ onNavigate }) {
       {/* Mandatory AI Tool Disclosure as per SRS instructions */}
       <section 
         style={{
-          background: 'rgba(99, 102, 241, 0.08)',
-          border: '1px solid rgba(99, 102, 241, 0.25)',
+          background: 'rgba(0, 242, 254, 0.12)',
+          border: '1px solid rgba(0, 242, 254, 0.35)',
           borderRadius: '16px',
           padding: '2rem',
           marginBottom: '2.5rem'
         }}
       >
-        <h2 style={{ fontSize: '1.4rem', color: '#a5b4fc', marginBottom: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <h2 style={{ fontSize: '1.4rem', color: 'var(--accent-gold)', marginBottom: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Cpu size={22} />
           <span>Official AI Tools Acknowledgement (Aptech SRS Guidelines)</span>
         </h2>
@@ -124,32 +124,32 @@ export default function AboutPage({ onNavigate }) {
       {/* Team Roster */}
       <section style={{ background: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '16px', padding: '2rem' }}>
         <h2 style={{ fontSize: '1.4rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Users size={22} style={{ color: '#ec4899' }} />
+          <Users size={22} style={{ color: 'var(--accent-gold)' }} />
           <span>Project Team & Development Roles</span>
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.25rem' }}>
           <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
             <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>Lead Frontend Architect</h4>
-            <div style={{ fontSize: '0.8rem', color: '#818cf8', marginBottom: '0.5rem' }}>React.js & Component Design</div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>React.js & Component Design</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Engineered SPA structure, routing state, modal overlays, and storage utilities.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
             <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>UI/UX & Design Tokens</h4>
-            <div style={{ fontSize: '0.8rem', color: '#2ed573', marginBottom: '0.5rem' }}>CSS3 & Responsive Layouts</div>
-            <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Crafted dark theme palette, category accent colors, breadcrumbs, and micro-animations.</p>
+            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>CSS3 & Responsive Layouts</div>
+            <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Crafted burgundy & soft gold royal palette, category accent colors, breadcrumbs, and micro-animations.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
             <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>Data & Content Curation</h4>
-            <div style={{ fontSize: '0.8rem', color: '#ffa502', marginBottom: '0.5rem' }}>JSON Datasets & Chatbot</div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>JSON Datasets & Chatbot</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Formulated 35+ character bios, 21+ events, media catalog, and rule-based FAQ logic.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
             <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>QA & Accessibility</h4>
-            <div style={{ fontSize: '0.8rem', color: '#ff6b81', marginBottom: '0.5rem' }}>Lighthouse & SEO Testing</div>
+            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>Lighthouse & SEO Testing</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Validated cross-browser compatibility, WCAG contrast ratios, and keyboard accessibility.</p>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function CharactersPage({
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Users size={28} style={{ color: '#ec4899' }} />
+            <Users size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Character Profiles & Lore Roster</span>
           </h1>
           <p className="section-head-desc">

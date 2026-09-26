@@ -97,7 +97,7 @@ export default function HomePage({
         <div className="section-head-wrap">
           <div>
             <h2 className="section-head-title">
-              <Sparkles size={24} style={{ color: '#818cf8' }} />
+              <Sparkles size={24} style={{ color: 'var(--accent-gold)' }} />
               <span>Seven Fandom Universes</span>
             </h2>
             <p className="section-head-desc">
@@ -144,7 +144,7 @@ export default function HomePage({
         <div className="section-head-wrap">
           <div>
             <h2 className="section-head-title">
-              <TrendingUp size={24} style={{ color: '#ec4899' }} />
+              <TrendingUp size={24} style={{ color: 'var(--accent-gold)' }} />
               <span>Cross-Category Highlights</span>
             </h2>
             <p className="section-head-desc">
@@ -332,7 +332,7 @@ export default function HomePage({
                   </div>
                   <div className="card-body">
                     <div className="card-meta-line">
-                      <Calendar size={13} style={{ color: '#818cf8' }} />
+                      <Calendar size={13} style={{ color: 'var(--accent-gold)' }} />
                       <span>{ev.date}</span>
                     </div>
                     <h3 className="card-title">{ev.title}</h3>
@@ -375,10 +375,10 @@ export default function HomePage({
                   </div>
                   <div className="card-body">
                     <div className="card-meta-line">
-                      <span style={{ color: '#818cf8', fontWeight: 600 }}>{ch.franchise}</span>
+                      <span style={{ color: 'var(--accent-gold)', fontWeight: 600 }}>{ch.franchise}</span>
                     </div>
                     <h3 className="card-title">{ch.name}</h3>
-                    <div style={{ fontSize: '0.82rem', color: '#a5b4fc', marginBottom: '0.75rem' }}>
+                    <div style={{ fontSize: '0.82rem', color: 'var(--accent-gold)', marginBottom: '0.75rem' }}>
                       {ch.role}
                     </div>
                     <div className="traits-pills-list">
@@ -424,10 +424,10 @@ export default function HomePage({
                   </div>
                   <div className="card-body">
                     <div className="card-meta-line">
-                      <span style={{ color: '#818cf8' }}>{prod.franchise}</span>
+                      <span style={{ color: 'var(--accent-gold)' }}>{prod.franchise}</span>
                       <span>•</span>
-                      <span style={{ display: 'inline-flex', alignItems: 'center', gap: '2px', color: '#ffa502' }}>
-                        <Star size={13} fill="#ffa502" /> {prod.rating}
+                      <span style={{ display: 'inline-flex', alignItems: 'center', gap: '2px', color: 'var(--accent-gold)' }}>
+                        <Star size={13} fill="var(--accent-gold)" /> {prod.rating}
                       </span>
                     </div>
                     <h3 className="card-title">{prod.name}</h3>
@@ -456,9 +456,9 @@ export default function HomePage({
       {/* Community Banner */}
       <section 
         style={{
-          background: 'linear-gradient(135deg, rgba(99,102,241,0.15), rgba(236,72,153,0.15))',
+          background: 'linear-gradient(135deg, rgba(0, 242, 254, 0.22) 0%, rgba(124, 58, 237, 0.22) 50%, rgba(236, 72, 153, 0.15) 100%)',
           borderRadius: '16px',
-          border: '1px solid rgba(255,255,255,0.1)',
+          border: '1px solid var(--border-color)',
           padding: '3rem 2rem',
           textAlign: 'center',
           marginBottom: '2rem'

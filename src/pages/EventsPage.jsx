@@ -40,14 +40,14 @@ export default function EventsPage({
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Calendar size={28} style={{ color: '#2ed573' }} />
+            <Calendar size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Fandom Events, Conventions & Watch Parties</span>
           </h1>
           <p className="section-head-desc">
             Explore 21+ global fandom gatherings, international comic expos, stadium concerts, and premiere midnight screenings.
           </p>
         </div>
-        <span style={{ fontSize: '0.85rem', color: '#94a3b8' }}>
+        <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
           {filteredEvents.length} Events Tracked
         </span>
       </div>
@@ -125,19 +125,19 @@ export default function EventsPage({
                 <h3 className="card-title">{event.title}</h3>
 
                 {/* Event Schedule & Location */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '0.82rem', color: '#cbd5e1', marginBottom: '0.75rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '0.75rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <Calendar size={13} style={{ color: '#818cf8' }} />
+                    <Calendar size={13} style={{ color: 'var(--accent-gold)' }} />
                     <span>{event.date}</span>
                   </div>
                   {event.time && (
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                      <Clock size={13} style={{ color: '#818cf8' }} />
+                      <Clock size={13} style={{ color: 'var(--accent-gold)' }} />
                       <span>{event.time}</span>
                     </div>
                   )}
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <MapPin size={13} style={{ color: '#ec4899' }} />
+                    <MapPin size={13} style={{ color: 'var(--accent-gold)' }} />
                     <span>{event.location}</span>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ export default function EventsPage({
                 <p className="card-description">{event.description}</p>
 
                 <div style={{ marginTop: 'auto', paddingTop: '0.85rem', borderTop: '1px solid var(--border-color)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.78rem', color: '#94a3b8' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.78rem', color: 'var(--text-muted)' }}>
                     <Users size={13} />
                     <span>{event.attendees}</span>
                   </div>

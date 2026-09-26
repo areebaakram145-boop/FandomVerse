@@ -141,7 +141,7 @@ export default function CategoryHubPage({
       <div 
         className="hero-banner"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(16, 21, 34, 0.94), rgba(22, 29, 47, 0.88)), url('${category.heroImage}')`,
+          backgroundImage: `linear-gradient(135deg, rgba(10, 10, 12, 0.94), rgba(18, 18, 24, 0.9)), url('${category.heroImage}')`,
           borderLeft: `5px solid ${category.themeColor}`,
           marginBottom: '2.5rem'
         }}

@@ -34,7 +34,7 @@ export default function RealTimeClock() {
 
   return (
     <div className="live-clock-badge" title="Live System Time">
-      <Clock size={13} style={{ color: '#818cf8' }} />
+      <Clock size={13} style={{ color: 'var(--primary)' }} />
       <span>{formattedDate} • {formattedTime}</span>
     </div>
   );

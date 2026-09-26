@@ -19,13 +19,14 @@ function VerseBotLogo({ size = 32 }) {
     >
       <defs>
         <linearGradient id="vbGrad1" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#00e5ff" />
-          <stop offset="0.5" stopColor="#6366f1" />
-          <stop offset="1" stopColor="#d946ef" />
+          <stop stopColor="#00f2fe" />
+          <stop offset="0.45" stopColor="#4facfe" />
+          <stop offset="0.8" stopColor="#7c3aed" />
+          <stop offset="1" stopColor="#ec4899" />
         </linearGradient>
         <linearGradient id="vbVisorGrad" x1="12" y1="16" x2="36" y2="32" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#040816" />
-          <stop offset="1" stopColor="#0f172a" />
+          <stop stopColor="#050814" />
+          <stop offset="1" stopColor="#0b1021" />
         </linearGradient>
         <filter id="vbGlowOptic" x="-20%" y="-20%" width="140%" height="140%">
           <feGaussianBlur stdDeviation="1.8" result="blur" />
@@ -49,27 +50,27 @@ function VerseBotLogo({ size = 32 }) {
       <path 
         d="M13 18C13 15.5 15.5 14 18 14H30C32.5 14 35 15.5 35 18V27C35 30 32.5 31.5 30 31.5H18C15.5 31.5 13 30 13 27V18Z" 
         fill="url(#vbVisorGrad)" 
-        stroke="rgba(0, 229, 255, 0.4)"
+        stroke="rgba(0, 242, 254, 0.5)"
         strokeWidth="1"
       />
 
-      {/* Expressive Twin Optics with Cyan Glow */}
-      <circle cx="19" cy="22.5" r="3.2" fill="#00e5ff" filter="url(#vbGlowOptic)" />
-      <circle cx="29" cy="22.5" r="3.2" fill="#00e5ff" filter="url(#vbGlowOptic)" />
+      {/* Expressive Twin Optics with Electric Mint Glow */}
+      <circle cx="19" cy="22.5" r="3.2" fill="#00f2fe" filter="url(#vbGlowOptic)" />
+      <circle cx="29" cy="22.5" r="3.2" fill="#00f2fe" filter="url(#vbGlowOptic)" />
       <circle cx="19.8" cy="21.5" r="1.1" fill="#ffffff" />
       <circle cx="29.8" cy="21.5" r="1.1" fill="#ffffff" />
 
       {/* Expressive Smile Curve */}
       <path 
         d="M21 27.5C22.2 29 25.8 29 27 27.5" 
-        stroke="#e879f9" 
+        stroke="#00f2fe" 
         strokeWidth="1.8" 
         strokeLinecap="round" 
       />
 
       {/* Head Antenna Node */}
-      <circle cx="24" cy="9" r="1.8" fill="#ffffff" />
-      <line x1="24" y1="9" x2="24" y2="13.5" stroke="#ffffff" strokeWidth="1.2" />
+      <circle cx="24" cy="9" r="1.8" fill="#00f2fe" />
+      <line x1="24" y1="9" x2="24" y2="13.5" stroke="#00f2fe" strokeWidth="1.2" />
     </svg>
   );
 }
@@ -222,7 +223,7 @@ export default function ChatbotWidget({ onNavigate }) {
         aria-label={isOpen ? "Close Chatbot" : "Open Chatbot"}
       >
         {isOpen ? (
-          <X size={26} color="#040816" strokeWidth={2.6} />
+          <X size={26} color="#ffffff" strokeWidth={2.6} />
         ) : (
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <VerseBotLogo size={36} />
@@ -240,11 +241,11 @@ export default function ChatbotWidget({ onNavigate }) {
               <div>
                 <div style={{ fontWeight: 800, fontSize: '0.96rem', color: '#fff', letterSpacing: '-0.3px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span>VerseBot</span>
-                  <span style={{ fontSize: '0.68rem', padding: '1px 6px', borderRadius: '4px', background: 'rgba(0,229,255,0.18)', color: '#00e5ff', border: '1px solid rgba(0,229,255,0.3)', fontWeight: 700 }}>
+                  <span style={{ fontSize: '0.68rem', padding: '1px 6px', borderRadius: '4px', background: 'rgba(0,242,254,0.18)', color: '#00f2fe', border: '1px solid rgba(0,242,254,0.45)', fontWeight: 700 }}>
                     AI GUIDE
                   </span>
                 </div>
-                <div style={{ fontSize: '0.72rem', color: '#2ed573', display: 'flex', alignItems: 'center', gap: '4px', marginTop: '1px' }}>
+                <div style={{ fontSize: '0.72rem', color: '#00f2fe', display: 'flex', alignItems: 'center', gap: '4px', marginTop: '1px' }}>
                   <span className="live-indicator" style={{ width: '6px', height: '6px' }}></span>
                   <span style={{ color: 'var(--text-muted)' }}>FandomVerse Companion</span>
                 </div>
@@ -293,9 +294,9 @@ export default function ChatbotWidget({ onNavigate }) {
                       display: 'inline-flex',
                       alignItems: 'center',
                       gap: '5px',
-                      background: 'rgba(0, 229, 255, 0.15)',
-                      color: '#00e5ff',
-                      border: '1px solid rgba(0, 229, 255, 0.35)',
+                      background: 'rgba(0, 242, 254, 0.15)',
+                      color: '#00f2fe',
+                      border: '1px solid rgba(0, 242, 254, 0.4)',
                       padding: '0.35rem 0.65rem',
                       borderRadius: '6px',
                       fontSize: '0.78rem',

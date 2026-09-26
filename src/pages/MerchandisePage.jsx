@@ -50,7 +50,7 @@ export default function MerchandisePage({
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <ShoppingBag size={28} style={{ color: '#2ed573' }} />
+            <ShoppingBag size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Fan Merchandise Showcase</span>
           </h1>
           <p className="section-head-desc">
@@ -169,10 +169,10 @@ export default function MerchandisePage({
 
               <div className="card-body">
                 <div className="card-meta-line">
-                  <span style={{ color: '#818cf8' }}>{item.franchise}</span>
+                  <span style={{ color: 'var(--accent-gold)' }}>{item.franchise}</span>
                   <span>•</span>
-                  <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', color: '#ffa502' }}>
-                    <Star size={13} fill="#ffa502" /> {item.rating} ({item.reviewsCount})
+                  <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', color: 'var(--accent-gold)' }}>
+                    <Star size={13} fill="var(--accent-gold)" /> {item.rating} ({item.reviewsCount})
                   </span>
                 </div>
 
@@ -242,17 +242,17 @@ export default function MerchandisePage({
                 style={{ width: '220px', height: '220px', borderRadius: '10px', objectFit: 'cover' }}
               />
               <div style={{ flexGrow: 1, minWidth: '220px' }}>
-                <span className="trait-pill" style={{ color: '#818cf8', marginBottom: '0.4rem', display: 'inline-block' }}>
+                <span className="trait-pill" style={{ color: 'var(--accent-gold)', marginBottom: '0.4rem', display: 'inline-block' }}>
                   {selectedProduct.category.toUpperCase()} • {selectedProduct.franchise}
                 </span>
                 <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem' }}>{selectedProduct.name}</h3>
                 
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#ffa502', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
-                  <Star size={15} fill="#ffa502" />
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--accent-gold)', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
+                  <Star size={15} fill="var(--accent-gold)" />
                   <span>{selectedProduct.rating} / 5.0 ({selectedProduct.reviewsCount} customer reviews)</span>
                 </div>
 
-                <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#2ed573', marginBottom: '1rem' }}>
+                <div style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--accent-gold)', marginBottom: '1rem' }}>
                   ${selectedProduct.price.toFixed(2)}
                 </div>
 

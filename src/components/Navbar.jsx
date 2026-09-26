@@ -7,25 +7,15 @@ import {
   Menu, 
   X, 
   Sparkles,
-  ChevronDown,
-  Palette,
-  Check
+  ChevronDown
 } from 'lucide-react';
 import RealTimeClock from './RealTimeClock';
 import VisitorCounter from './VisitorCounter';
 
-const THEME_OPTIONS = [
-  { id: 'purple-cyan', name: 'Purple & Cyan (Modern)', color: '#00e5ff', icon: '💎' },
-  { id: 'nebula', name: 'Midnight Nebula', color: '#38bdf8', icon: '🌌' },
-  { id: 'sakura', name: 'Anime Sakura', color: '#f43f5e', icon: '🌸' },
-  { id: 'matrix', name: 'Emerald Matrix', color: '#10b981', icon: '⚡' },
-  { id: 'light', name: 'Lumina Crystal', color: '#0284c7', icon: '☀️' }
-];
-
 /**
  * Navbar Component
  * Features sticky navigation, dynamic counters, search trigger, category dropdown,
- * dynamic theme switcher, and dummy authentication button.
+ * and quick access to cart and user profile in Burgundy & Soft Gold aesthetic.
  */
 export default function Navbar({
   activePage,
@@ -35,23 +25,16 @@ export default function Navbar({
   onOpenSearch,
   onOpenCart,
   onOpenAuth,
-  categories = [],
-  currentTheme = 'cyberpunk',
-  onSelectTheme
+  categories = []
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [categoriesDropdownOpen, setCategoriesDropdownOpen] = useState(false);
-  const [themeDropdownOpen, setThemeDropdownOpen] = useState(false);
 
-  const themeDropdownRef = useRef(null);
   const catDropdownRef = useRef(null);
 
   // Close dropdowns when clicking outside
   useEffect(() => {
     function handleClickOutside(e) {
-      if (themeDropdownRef.current && !themeDropdownRef.current.contains(e.target)) {
-        setThemeDropdownOpen(false);
-      }
       if (catDropdownRef.current && !catDropdownRef.current.contains(e.target)) {
         setCategoriesDropdownOpen(false);
       }
@@ -65,10 +48,7 @@ export default function Navbar({
     onNavigate(pageId, categoryId);
     setMobileMenuOpen(false);
     setCategoriesDropdownOpen(false);
-    setThemeDropdownOpen(false);
   };
-
-  const activeThemeObj = THEME_OPTIONS.find(t => t.id === currentTheme) || THEME_OPTIONS[0];
 
   return (
     <header className="site-header">
@@ -235,53 +215,6 @@ export default function Navbar({
 
           {/* Action Icons */}
           <div className="header-actions">
-            {/* Theme Selector Widget */}
-            <div className="theme-selector-wrap" ref={themeDropdownRef}>
-              <button 
-                type="button" 
-                className="icon-btn" 
-                title={`Theme: ${activeThemeObj.name} (Click to switch)`}
-                onClick={() => {
-                  setThemeDropdownOpen(!themeDropdownOpen);
-                  setCategoriesDropdownOpen(false);
-                }}
-                style={{
-                  borderColor: themeDropdownOpen ? 'var(--primary)' : 'var(--border-color)',
-                  color: 'var(--text-main)'
-                }}
-              >
-                <Palette size={18} />
-              </button>
-
-              {themeDropdownOpen && (
-                <div className="theme-selector-menu">
-                  <div style={{ padding: '0.35rem 0.6rem 0.5rem', fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                    Select Theme Style
-                  </div>
-                  {THEME_OPTIONS.map(thm => (
-                    <button
-                      key={thm.id}
-                      type="button"
-                      className={`theme-option-btn ${currentTheme === thm.id ? 'active' : ''}`}
-                      onClick={() => {
-                        if (onSelectTheme) onSelectTheme(thm.id);
-                        setThemeDropdownOpen(false);
-                      }}
-                    >
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <span>{thm.icon}</span>
-                        <span>{thm.name}</span>
-                      </div>
-                      <span 
-                        className="theme-preview-dot" 
-                        style={{ background: thm.color, boxShadow: `0 0 8px ${thm.color}` }}
-                      />
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-
             {/* Search Trigger */}
             <button 
               type="button" 
@@ -371,36 +304,6 @@ export default function Navbar({
             >
               Home
             </button>
-
-            {/* Mobile Theme Selector */}
-            <div style={{ padding: '0.4rem 0.85rem', color: 'var(--text-dim)', fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.5px' }}>
-              CHOOSE THEME
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.5rem', padding: '0 0.85rem' }}>
-              {THEME_OPTIONS.map(thm => (
-                <button
-                  key={thm.id}
-                  type="button"
-                  onClick={() => {
-                    if (onSelectTheme) onSelectTheme(thm.id);
-                  }}
-                  style={{
-                    padding: '0.5rem',
-                    fontSize: '0.8rem',
-                    borderRadius: 'var(--radius-sm)',
-                    border: '1px solid var(--border-color)',
-                    background: currentTheme === thm.id ? 'var(--primary)' : 'rgba(255,255,255,0.05)',
-                    color: currentTheme === thm.id ? '#fff' : 'var(--text-main)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.4rem'
-                  }}
-                >
-                  <span>{thm.icon}</span>
-                  <span>{thm.name}</span>
-                </button>
-              ))}
-            </div>
 
             <div style={{ padding: '0.4rem 0.85rem', color: 'var(--text-dim)', fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.5px' }}>
               CATEGORIES

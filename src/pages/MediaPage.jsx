@@ -40,7 +40,7 @@ export default function MediaPage({
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Film size={28} style={{ color: '#818cf8' }} />
+            <Film size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Videos, Trailers & Audio Podcasts</span>
           </h1>
           <p className="section-head-desc">

@@ -92,20 +92,11 @@ export default function App() {
     setToast({ message, type });
   };
 
-  // Global Theme State: Default to 'purple-cyan' (Creative & Modern Zenith Theme)
-  const [currentTheme, setCurrentTheme] = useState(() => {
-    return localStorage.getItem('fandomverse_theme') || 'purple-cyan';
-  });
-
+  // Fixed Black, White & Red Theme (Single Master Theme)
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    localStorage.setItem('fandomverse_theme', currentTheme);
-  }, [currentTheme]);
-
-  const handleSelectTheme = (themeId) => {
-    setCurrentTheme(themeId);
-    showToast(`Switched theme to ${themeId.toUpperCase()} mode!`, 'info');
-  };
+    document.documentElement.setAttribute('data-theme', 'aurora');
+    localStorage.removeItem('fandomverse_theme');
+  }, []);
 
   // 1. Initial Data Fetching from /data/*.json on Mount
   useEffect(() => {
@@ -292,7 +283,7 @@ export default function App() {
   }
 
   return (
-    <div className="app-root-layout" data-theme={currentTheme}>
+    <div className="app-root-layout" data-theme="aurora">
       {/* Dynamic Ambient Mesh Lighting Background */}
       <div className="ambient-glow-background" aria-hidden="true">
         <div className="ambient-glow-orb-1" />
@@ -317,8 +308,6 @@ export default function App() {
         onOpenCart={() => setCartDrawerOpen(true)}
         onOpenAuth={() => setAuthModalOpen(true)}
         categories={categories}
-        currentTheme={currentTheme}
-        onSelectTheme={handleSelectTheme}
       />
 
       {/* Main Content Router View */}

@@ -40,7 +40,7 @@ export default function TrailersPage({
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Clapperboard size={28} style={{ color: '#ffa502' }} />
+            <Clapperboard size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Dedicated Trailers Hub</span>
           </h1>
           <p className="section-head-desc">
@@ -167,7 +167,7 @@ export default function TrailersPage({
                   {trailer.title}
                 </h3>
 
-                <div style={{ fontSize: '0.8rem', color: '#818cf8', marginBottom: '0.5rem' }}>
+                <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>
                   Studio / Publisher: {trailer.studio}
                 </div>
 

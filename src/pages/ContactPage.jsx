@@ -78,7 +78,7 @@ export default function ContactPage({ onNavigate, showToast }) {
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Mail size={28} style={{ color: '#ec4899' }} />
+            <Mail size={28} style={{ color: 'var(--accent-gold)' }} />
             <span>Contact FandomVerse & HQ Location</span>
           </h1>
           <p className="section-head-desc">
@@ -252,7 +252,7 @@ export default function ContactPage({ onNavigate, showToast }) {
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-                <MapPin size={20} style={{ color: '#ec4899', flexShrink: 0, marginTop: '2px' }} />
+                <MapPin size={20} style={{ color: 'var(--accent-gold)', flexShrink: 0, marginTop: '2px' }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#fff', fontSize: '0.92rem' }}>Physical Address</div>
                   <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>
@@ -262,7 +262,7 @@ export default function ContactPage({ onNavigate, showToast }) {
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-                <Mail size={20} style={{ color: '#818cf8', flexShrink: 0, marginTop: '2px' }} />
+                <Mail size={20} style={{ color: 'var(--accent-gold)', flexShrink: 0, marginTop: '2px' }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#fff', fontSize: '0.92rem' }}>Email Support</div>
                   <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>contact@fandomverse-aptech.org</div>
@@ -270,7 +270,7 @@ export default function ContactPage({ onNavigate, showToast }) {
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-                <Phone size={20} style={{ color: '#2ed573', flexShrink: 0, marginTop: '2px' }} />
+                <Phone size={20} style={{ color: 'var(--accent-gold)', flexShrink: 0, marginTop: '2px' }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#fff', fontSize: '0.92rem' }}>Direct Line</div>
                   <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>+1 (800) 555-FANDOM / +92 21 111-APTECH</div>
@@ -278,7 +278,7 @@ export default function ContactPage({ onNavigate, showToast }) {
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-                <Clock size={20} style={{ color: '#ffa502', flexShrink: 0, marginTop: '2px' }} />
+                <Clock size={20} style={{ color: 'var(--accent-gold)', flexShrink: 0, marginTop: '2px' }} />
                 <div>
                   <div style={{ fontWeight: 600, color: '#fff', fontSize: '0.92rem' }}>Operating Hours</div>
                   <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>Monday - Saturday: 09:00 AM - 08:00 PM PST</div>
@@ -290,7 +290,7 @@ export default function ContactPage({ onNavigate, showToast }) {
           {/* GPS Functionality Box (SRS requirement: "with a Google Map showing location and GPS functionality") */}
           <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '16px', padding: '1.75rem' }}>
             <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#fff', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <Navigation size={18} style={{ color: '#818cf8' }} />
+              <Navigation size={18} style={{ color: 'var(--accent-gold)' }} />
               <span>GPS Geolocation Finder</span>
             </h3>
             <p style={{ color: '#94a3b8', fontSize: '0.85rem', marginBottom: '1.25rem' }}>
@@ -333,7 +333,7 @@ export default function ContactPage({ onNavigate, showToast }) {
       {/* Embedded Responsive Google Map (SRS Requirement: "Google Map showing location") */}
       <section style={{ background: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '16px', overflow: 'hidden', padding: '1.5rem' }}>
         <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <MapPin size={20} style={{ color: '#ec4899' }} />
+          <MapPin size={20} style={{ color: 'var(--accent-gold)' }} />
           <span>Interactive Headquarters Google Map</span>
         </h3>
         

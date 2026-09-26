@@ -18,7 +18,7 @@ export default function VisitorCounter() {
   return (
     <div className="visitor-counter-badge" title="Total Simulated Unique Portal Visits">
       <span className="live-indicator"></span>
-      <Users size={13} style={{ color: '#2ed573' }} />
+      <Users size={13} style={{ color: 'var(--primary)' }} />
       <span>{visitorCount.toLocaleString()} Visits</span>
     </div>
   );
