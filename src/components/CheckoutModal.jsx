@@ -221,7 +221,7 @@ export default function CheckoutModal({
                         onChange={() => setFormData({ ...formData, paymentMethod: 'fan_credits' })}
                       />
                       <div>
-                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Demo Fan Credits 💎</div>
+                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Demo Fan Credits</div>
                         <div style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Simulated Balance: $500.00 Available</div>
                       </div>
                     </label>
@@ -232,9 +232,9 @@ export default function CheckoutModal({
                         alignItems: 'center',
                         gap: '10px',
                         padding: '0.65rem 0.85rem',
-                        borderRadius: '8px',
-                        background: formData.paymentMethod === 'test_card' ? 'rgba(99,102,241,0.2)' : 'rgba(255,255,255,0.03)',
-                        border: formData.paymentMethod === 'test_card' ? '1px solid var(--primary)' : '1px solid var(--border-color)',
+                        borderRadius: '4px',
+                        background: formData.paymentMethod === 'test_card' ? 'rgba(128, 0, 32, 0.2)' : 'rgba(255,255,255,0.03)',
+                        border: formData.paymentMethod === 'test_card' ? '1px solid #800020' : '1px solid var(--border-color)',
                         cursor: 'pointer'
                       }}
                     >
@@ -245,7 +245,7 @@ export default function CheckoutModal({
                         onChange={() => setFormData({ ...formData, paymentMethod: 'test_card' })}
                       />
                       <div>
-                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Fandom Test Card 💳</div>
+                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Fandom Test Card</div>
                         <div style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Demo Sandbox Card (•••• 4242)</div>
                       </div>
                     </label>
@@ -256,9 +256,9 @@ export default function CheckoutModal({
                         alignItems: 'center',
                         gap: '10px',
                         padding: '0.65rem 0.85rem',
-                        borderRadius: '8px',
-                        background: formData.paymentMethod === 'cod' ? 'rgba(99,102,241,0.2)' : 'rgba(255,255,255,0.03)',
-                        border: formData.paymentMethod === 'cod' ? '1px solid var(--primary)' : '1px solid var(--border-color)',
+                        borderRadius: '4px',
+                        background: formData.paymentMethod === 'cod' ? 'rgba(128, 0, 32, 0.2)' : 'rgba(255,255,255,0.03)',
+                        border: formData.paymentMethod === 'cod' ? '1px solid #800020' : '1px solid var(--border-color)',
                         cursor: 'pointer'
                       }}
                     >
@@ -269,7 +269,7 @@ export default function CheckoutModal({
                         onChange={() => setFormData({ ...formData, paymentMethod: 'cod' })}
                       />
                       <div>
-                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Cash on Delivery (Test) 📦</div>
+                        <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#fff' }}>Cash on Delivery (Test)</div>
                         <div style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Pay upon physical package receipt</div>
                       </div>
                     </label>
@@ -338,7 +338,7 @@ export default function CheckoutModal({
             </div>
 
             <h2 style={{ fontSize: '1.75rem', marginBottom: '0.35rem', color: '#2ed573' }}>
-              Order Confirmed! 🎉
+              Order Confirmed!
             </h2>
             <p style={{ color: '#94a3b8', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
               Thank you for shopping with FandomVerse. Your simulated fan order has been placed successfully!

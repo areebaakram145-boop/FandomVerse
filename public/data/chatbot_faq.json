@@ -1,16 +1,16 @@
 {
   "botName": "VerseBot",
-  "welcomeMessage": "Hello fellow fan! 👋 I'm VerseBot, your FandomVerse navigator. Ask me anything about Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga, upcoming events, or merchandise!",
+  "welcomeMessage": "Hello fellow fan! I am VerseBot, your FandomVerse navigator. Ask me anything about Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga, upcoming events, or merchandise!",
   "quickReplies": [
-    "🔥 Recommend top Anime",
-    "🎮 Best RPG games to play",
-    "📅 Upcoming fandom events",
-    "🍿 Watch latest trailers",
-    "🛍 How does the cart work?",
-    "🔖 How to bookmark & save notes?",
-    "🎤 Tell me about K-Pop groups",
-    "🦸 Marvel vs DC Comics",
-    "✨ What is FandomVerse?"
+    "Recommend top Anime",
+    "Best RPG games to play",
+    "Upcoming fandom events",
+    "Watch latest trailers",
+    "How does the cart work?",
+    "How to bookmark & save notes?",
+    "Tell me about K-Pop groups",
+    "Marvel vs DC Comics",
+    "What is FandomVerse?"
   ],
   "faqDatabase": [
     {
@@ -44,7 +44,7 @@
     {
       "keywords": ["kpop", "k-pop", "bts", "blackpink", "stray kids", "aespa", "army", "jennie", "felix", "karina", "rm"],
       "question": "Tell me about the K-Pop section!",
-      "answer": "Annyeong! 💜 Our K-Pop Hub is filled with idol profiles (BTS RM, BLACKPINK Jennie, Stray Kids Felix, aespa Karina, Taemin), official lightsticks in our fan shop, concert gallery photos, and articles exploring Hallyu choreography and fan culture.",
+      "answer": "Welcome! Our K-Pop Hub is filled with idol profiles (BTS RM, BLACKPINK Jennie, Stray Kids Felix, aespa Karina, Taemin), official lightsticks in our fan shop, concert gallery photos, and articles exploring Hallyu choreography and fan culture.",
       "suggestedCategory": "k-pop",
       "suggestedPage": "category-hub"
     },
@@ -92,5 +92,5 @@
       "suggestedPage": "contact"
     }
   ],
-  "defaultFallback": "That sounds interesting! 🌟 You can browse our 7 category hubs (Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga) using the top navigation bar, use the Global Search tool, or check out our Merch Shop and Events calendar."
+  "defaultFallback": "That sounds interesting! You can browse our 7 category hubs (Anime, Gaming, Movies, TV Shows, K-Pop, Comics, Manga) using the top navigation bar, use the Global Search tool, or check out our Merch Shop and Events calendar."
 }

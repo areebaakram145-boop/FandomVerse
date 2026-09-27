@@ -6,71 +6,25 @@ import { MessageSquare, X, Send, Sparkles, ArrowRight, RotateCcw } from 'lucide-
  * Bespoke, human-crafted cyberpunk-anime emblem with glowing gradients
  * and friendly optical visor. Distinct and premium, avoiding generic AI templates.
  */
-function VerseBotLogo({ size = 32 }) {
+function VerseBotLogo({ size = 28 }) {
   return (
     <svg 
       width={size} 
       height={size} 
-      viewBox="0 0 48 48" 
+      viewBox="0 0 24 24" 
       fill="none" 
-      xmlns="http://www.w3.org/2000/svg"
+      stroke="#ffffff"
+      strokeWidth="2"
+      strokeLinecap="round" 
+      strokeLinejoin="round"
       style={{ display: 'block', flexShrink: 0 }}
-      aria-label="VerseBot Crest"
+      aria-label="VerseBot Emblem"
     >
-      <defs>
-        <linearGradient id="vbGrad1" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#00f2fe" />
-          <stop offset="0.45" stopColor="#4facfe" />
-          <stop offset="0.8" stopColor="#7c3aed" />
-          <stop offset="1" stopColor="#ec4899" />
-        </linearGradient>
-        <linearGradient id="vbVisorGrad" x1="12" y1="16" x2="36" y2="32" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#050814" />
-          <stop offset="1" stopColor="#0b1021" />
-        </linearGradient>
-        <filter id="vbGlowOptic" x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur stdDeviation="1.8" result="blur" />
-          <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
-      </defs>
-
-      {/* Hex-Shield Geometric Base */}
-      <path 
-        d="M24 3L41 12V28C41 37 24 45 24 45C24 45 7 37 7 28V12L24 3Z" 
-        fill="url(#vbGrad1)" 
-      />
-      <path 
-        d="M24 5L39 13.2V27.5C39 35.2 24 42.5 24 42.5C24 42.5 9 35.2 9 27.5V13.2L24 5Z" 
-        stroke="rgba(255,255,255,0.45)" 
-        strokeWidth="1.2" 
-        fill="none" 
-      />
-
-      {/* Visor Area */}
-      <path 
-        d="M13 18C13 15.5 15.5 14 18 14H30C32.5 14 35 15.5 35 18V27C35 30 32.5 31.5 30 31.5H18C15.5 31.5 13 30 13 27V18Z" 
-        fill="url(#vbVisorGrad)" 
-        stroke="rgba(0, 242, 254, 0.5)"
-        strokeWidth="1"
-      />
-
-      {/* Expressive Twin Optics with Electric Mint Glow */}
-      <circle cx="19" cy="22.5" r="3.2" fill="#00f2fe" filter="url(#vbGlowOptic)" />
-      <circle cx="29" cy="22.5" r="3.2" fill="#00f2fe" filter="url(#vbGlowOptic)" />
-      <circle cx="19.8" cy="21.5" r="1.1" fill="#ffffff" />
-      <circle cx="29.8" cy="21.5" r="1.1" fill="#ffffff" />
-
-      {/* Expressive Smile Curve */}
-      <path 
-        d="M21 27.5C22.2 29 25.8 29 27 27.5" 
-        stroke="#00f2fe" 
-        strokeWidth="1.8" 
-        strokeLinecap="round" 
-      />
-
-      {/* Head Antenna Node */}
-      <circle cx="24" cy="9" r="1.8" fill="#00f2fe" />
-      <line x1="24" y1="9" x2="24" y2="13.5" stroke="#00f2fe" strokeWidth="1.2" />
+      <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+      <circle cx="12" cy="5" r="2"></circle>
+      <path d="M12 7v4"></path>
+      <line x1="8" y1="16" x2="8" y2="16"></line>
+      <line x1="16" y1="16" x2="16" y2="16"></line>
     </svg>
   );
 }
@@ -101,7 +55,7 @@ export default function ChatbotWidget({ onNavigate }) {
           {
             id: 'init-1',
             sender: 'bot',
-            text: data.welcomeMessage || "Hello fellow fan! 👋 I'm VerseBot, your FandomVerse navigator. Ask me anything about Anime, Gaming, Movies, Events, or Merch!",
+            text: data.welcomeMessage || "Hello fellow fan! I am VerseBot, your FandomVerse navigator. Ask me anything about Anime, Gaming, Movies, Events, or Merch!",
             action: null
           }
         ]);
@@ -241,13 +195,13 @@ export default function ChatbotWidget({ onNavigate }) {
               <div>
                 <div style={{ fontWeight: 800, fontSize: '0.96rem', color: '#fff', letterSpacing: '-0.3px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span>VerseBot</span>
-                  <span style={{ fontSize: '0.68rem', padding: '1px 6px', borderRadius: '4px', background: 'rgba(0,242,254,0.18)', color: '#00f2fe', border: '1px solid rgba(0,242,254,0.45)', fontWeight: 700 }}>
-                    AI GUIDE
+                  <span style={{ fontSize: '0.68rem', padding: '1px 6px', borderRadius: '3px', background: '#5c0017', color: '#ffffff', border: '1px solid #7c001f', fontWeight: 700 }}>
+                    ASSISTANT
                   </span>
                 </div>
-                <div style={{ fontSize: '0.72rem', color: '#00f2fe', display: 'flex', alignItems: 'center', gap: '4px', marginTop: '1px' }}>
+                <div style={{ fontSize: '0.72rem', color: '#e0e0e0', display: 'flex', alignItems: 'center', gap: '4px', marginTop: '1px' }}>
                   <span className="live-indicator" style={{ width: '6px', height: '6px' }}></span>
-                  <span style={{ color: 'var(--text-muted)' }}>FandomVerse Companion</span>
+                  <span style={{ color: '#d0d0d0' }}>FandomVerse Companion</span>
                 </div>
               </div>
             </div>
@@ -294,11 +248,11 @@ export default function ChatbotWidget({ onNavigate }) {
                       display: 'inline-flex',
                       alignItems: 'center',
                       gap: '5px',
-                      background: 'rgba(0, 242, 254, 0.15)',
-                      color: '#00f2fe',
-                      border: '1px solid rgba(0, 242, 254, 0.4)',
+                      background: '#800020',
+                      color: '#ffffff',
+                      border: '1px solid #800020',
                       padding: '0.35rem 0.65rem',
-                      borderRadius: '6px',
+                      borderRadius: '4px',
                       fontSize: '0.78rem',
                       fontWeight: 600,
                       cursor: 'pointer',

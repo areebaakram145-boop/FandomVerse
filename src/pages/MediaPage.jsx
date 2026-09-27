@@ -117,18 +117,18 @@ export default function MediaPage({
                 >
                   <div 
                     style={{
-                      width: '48px',
-                      height: '48px',
-                      borderRadius: '50%',
-                      background: isAudio ? 'rgba(46, 213, 115, 0.9)' : 'rgba(99, 102, 241, 0.9)',
+                      width: '44px',
+                      height: '44px',
+                      borderRadius: '4px',
+                      background: '#800020',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       color: '#fff',
-                      boxShadow: '0 4px 15px rgba(0,0,0,0.5)'
+                      border: '1px solid #a31d36'
                     }}
                   >
-                    {isAudio ? <Volume2 size={22} /> : <Play size={22} style={{ marginLeft: '3px' }} />}
+                    {isAudio ? <Volume2 size={20} /> : <Play size={20} style={{ marginLeft: '2px' }} />}
                   </div>
                 </div>
 
@@ -152,7 +152,7 @@ export default function MediaPage({
                   <span 
                     style={{ 
                       textTransform: 'uppercase', 
-                      color: isAudio ? '#2ed573' : '#818cf8', 
+                      color: '#c23351', 
                       fontWeight: 700,
                       fontSize: '0.75rem' 
                     }}
@@ -160,7 +160,7 @@ export default function MediaPage({
                     {item.type}
                   </span>
                   <span>•</span>
-                  <span>⏱ {item.duration}</span>
+                  <span>{item.duration}</span>
                 </div>
 
                 <h3 

@@ -87,7 +87,7 @@ export default function GlobalSearchModal({
         </button>
 
         <h3 style={{ fontSize: '1.4rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Search size={20} style={{ color: '#818cf8' }} />
+          <Search size={20} style={{ color: '#c23351' }} />
           <span>Search FandomVerse</span>
         </h3>
 
@@ -173,7 +173,7 @@ export default function GlobalSearchModal({
                   <img 
                     src={item.image || item.thumbnail} 
                     alt={item.title || item.name} 
-                    style={{ width: '46px', height: '46px', borderRadius: '6px', objectFit: 'cover' }}
+                    style={{ width: '46px', height: '46px', borderRadius: '4px', objectFit: 'cover' }}
                   />
                 )}
                 <div style={{ flexGrow: 1, minWidth: 0 }}>
@@ -183,26 +183,27 @@ export default function GlobalSearchModal({
                         fontSize: '0.68rem', 
                         padding: '1px 6px', 
                         borderRadius: '4px', 
-                        background: 'rgba(99,102,241,0.2)', 
-                        color: '#a5b4fc',
+                        background: '#241015', 
+                        color: '#e28b9c',
+                        border: '1px solid #800020',
                         fontWeight: 700,
                         textTransform: 'uppercase'
                       }}
                     >
                       {item.contentType}
                     </span>
-                    <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>
+                    <span style={{ fontSize: '0.75rem', color: '#a3a3a3' }}>
                       {item.category?.toUpperCase()}
                     </span>
                   </div>
                   <div style={{ fontWeight: 600, fontSize: '0.95rem', color: '#f8fafc', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {item.title || item.name}
                   </div>
-                  <div style={{ fontSize: '0.8rem', color: '#94a3b8', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                  <div style={{ fontSize: '0.8rem', color: '#a3a3a3', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {item.franchise || item.author || item.location || (item.price ? `$${item.price.toFixed(2)}` : '')}
                   </div>
                 </div>
-                <ArrowRight size={16} style={{ color: '#6366f1', flexShrink: 0 }} />
+                <ArrowRight size={16} style={{ color: '#c23351', flexShrink: 0 }} />
               </div>
             ))
           )}

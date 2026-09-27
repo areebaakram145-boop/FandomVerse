@@ -19,7 +19,7 @@ export default function AboutPage({ onNavigate }) {
       <div className="section-head-wrap">
         <div>
           <h1 className="section-head-title">
-            <Info size={28} style={{ color: 'var(--accent-gold)' }} />
+            <Info size={24} style={{ color: '#c23351' }} />
             <span>About FandomVerse & Technical Architecture</span>
           </h1>
           <p className="section-head-desc">
@@ -29,28 +29,28 @@ export default function AboutPage({ onNavigate }) {
       </div>
 
       {/* Project Vision & Background */}
-      <section style={{ background: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '16px', padding: '2rem', marginBottom: '2.5rem' }}>
-        <h2 style={{ fontSize: '1.6rem', marginBottom: '1rem', color: '#fff' }}>
+      <section style={{ background: '#161616', border: '1px solid #2e2e2e', borderRadius: '4px', padding: '1.75rem', marginBottom: '2rem' }}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '0.85rem', color: '#fff' }}>
           Problem Statement & The FandomVerse Solution
         </h2>
-        <p style={{ color: '#cbd5e1', lineHeight: 1.8, marginBottom: '1.25rem', fontSize: '0.96rem' }}>
+        <p style={{ color: '#cbd5e1', lineHeight: 1.7, marginBottom: '1rem', fontSize: '0.94rem' }}>
           Fandom is an ever-expanding global phenomenon spanning Anime, Gaming, Movies, Television, K-Pop, Comics, and Manga. However, fan information is notoriously fragmented—scattered across separate wikis, social feeds, streaming apps, ticketing sites, and merchandise outlets. Fans are forced to shuffle across dozens of URLs simply to stay updated.
         </p>
-        <p style={{ color: '#cbd5e1', lineHeight: 1.8, fontSize: '0.96rem' }}>
+        <p style={{ color: '#cbd5e1', lineHeight: 1.7, fontSize: '0.94rem' }}>
           <strong>FandomVerse</strong> solves this fragmentation by providing a centralized, high-performance, responsive Single Page Application (SPA). Built with React.js and lightweight JSON datasets, FandomVerse brings articles, character bios, trailers, conventions, and fan merchandise together under one intuitive umbrella.
         </p>
       </section>
 
       {/* Technical Architecture Specs */}
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Layers size={22} style={{ color: 'var(--accent-gold)' }} />
+      <section style={{ marginBottom: '2.5rem' }}>
+        <h2 style={{ fontSize: '1.4rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <Layers size={20} style={{ color: '#c23351' }} />
           <span>Technical Architecture & Constraints Compliance</span>
         </h2>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: '1.25rem' }}>
-          <div style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.5rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: '1rem' }}>
+          <div style={{ background: '#1c1c1c', border: '1px solid #2e2e2e', borderRadius: '4px', padding: '1.25rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#c23351', marginBottom: '0.65rem', fontWeight: 700 }}>
               <Code2 size={20} />
               <span>React.js SPA Architecture</span>
             </div>
@@ -95,14 +95,15 @@ export default function AboutPage({ onNavigate }) {
       {/* Mandatory AI Tool Disclosure as per SRS instructions */}
       <section 
         style={{
-          background: 'rgba(0, 242, 254, 0.12)',
-          border: '1px solid rgba(0, 242, 254, 0.35)',
-          borderRadius: '16px',
-          padding: '2rem',
-          marginBottom: '2.5rem'
+          background: '#161616',
+          border: '1px solid #2e2e2e',
+          borderLeft: '4px solid #800020',
+          borderRadius: '4px',
+          padding: '1.75rem',
+          marginBottom: '2rem'
         }}
       >
-        <h2 style={{ fontSize: '1.4rem', color: 'var(--accent-gold)', marginBottom: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <h2 style={{ fontSize: '1.3rem', color: '#c23351', marginBottom: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Cpu size={22} />
           <span>Official AI Tools Acknowledgement (Aptech SRS Guidelines)</span>
         </h2>
@@ -122,34 +123,34 @@ export default function AboutPage({ onNavigate }) {
       </section>
 
       {/* Team Roster */}
-      <section style={{ background: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '16px', padding: '2rem' }}>
-        <h2 style={{ fontSize: '1.4rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Users size={22} style={{ color: 'var(--accent-gold)' }} />
+      <section style={{ background: '#161616', border: '1px solid #2e2e2e', borderRadius: '4px', padding: '1.75rem' }}>
+        <h2 style={{ fontSize: '1.4rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <Users size={20} style={{ color: '#c23351' }} />
           <span>Project Team & Development Roles</span>
         </h2>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.25rem' }}>
-          <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>Lead Frontend Architect</h4>
-            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>React.js & Component Design</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
+          <div style={{ background: '#1c1c1c', padding: '1.15rem', borderRadius: '4px', border: '1px solid #2e2e2e' }}>
+            <h4 style={{ fontSize: '1rem', color: '#fff' }}>Lead Frontend Architect</h4>
+            <div style={{ fontSize: '0.8rem', color: '#c23351', marginBottom: '0.4rem' }}>React.js & Component Design</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Engineered SPA structure, routing state, modal overlays, and storage utilities.</p>
           </div>
 
-          <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>UI/UX & Design Tokens</h4>
-            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>CSS3 & Responsive Layouts</div>
-            <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Crafted burgundy & soft gold royal palette, category accent colors, breadcrumbs, and micro-animations.</p>
+          <div style={{ background: '#1c1c1c', padding: '1.15rem', borderRadius: '4px', border: '1px solid #2e2e2e' }}>
+            <h4 style={{ fontSize: '1rem', color: '#fff' }}>UI/UX & Design Tokens</h4>
+            <div style={{ fontSize: '0.8rem', color: '#c23351', marginBottom: '0.4rem' }}>CSS3 & Responsive Layouts</div>
+            <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Crafted burgundy and black theme palette, category accent colors, breadcrumbs, and clean structure.</p>
           </div>
 
-          <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>Data & Content Curation</h4>
-            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>JSON Datasets & Chatbot</div>
+          <div style={{ background: '#1c1c1c', padding: '1.15rem', borderRadius: '4px', border: '1px solid #2e2e2e' }}>
+            <h4 style={{ fontSize: '1rem', color: '#fff' }}>Data & Content Curation</h4>
+            <div style={{ fontSize: '0.8rem', color: '#c23351', marginBottom: '0.4rem' }}>JSON Datasets & Chatbot</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Formulated 35+ character bios, 21+ events, media catalog, and rule-based FAQ logic.</p>
           </div>
 
-          <div style={{ background: 'var(--bg-secondary)', padding: '1.25rem', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <h4 style={{ fontSize: '1.1rem', color: '#fff' }}>QA & Accessibility</h4>
-            <div style={{ fontSize: '0.8rem', color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>Lighthouse & SEO Testing</div>
+          <div style={{ background: '#1c1c1c', padding: '1.15rem', borderRadius: '4px', border: '1px solid #2e2e2e' }}>
+            <h4 style={{ fontSize: '1rem', color: '#fff' }}>QA & Accessibility</h4>
+            <div style={{ fontSize: '0.8rem', color: '#c23351', marginBottom: '0.4rem' }}>Lighthouse & SEO Testing</div>
             <p style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Validated cross-browser compatibility, WCAG contrast ratios, and keyboard accessibility.</p>
           </div>
         </div>

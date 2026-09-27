@@ -46,42 +46,42 @@ export default function CategoryHubPage({
   const [selectedSubTag, setSelectedSubTag] = useState('all');
   const [sortBy, setSortBy] = useState('featured'); // 'featured' | 'a-z' | 'z-a' | 'newest'
 
-  if (!category) return null;
+  const categoryId = category?.id || '';
 
   // Filter items specifically belonging to this category
   const categoryArticles = useMemo(() => 
-    articles.filter(a => a.category === category.id).map(a => ({ ...a, contentType: 'article' })), 
-    [articles, category.id]
+    articles.filter(a => a.category === categoryId).map(a => ({ ...a, contentType: 'article' })), 
+    [articles, categoryId]
   );
 
   const categoryCharacters = useMemo(() => 
-    characters.filter(c => c.category === category.id).map(c => ({ ...c, contentType: 'character' })), 
-    [characters, category.id]
+    characters.filter(c => c.category === categoryId).map(c => ({ ...c, contentType: 'character' })), 
+    [characters, categoryId]
   );
 
   const categoryEvents = useMemo(() => 
-    events.filter(e => e.category === category.id).map(e => ({ ...e, contentType: 'event' })), 
-    [events, category.id]
+    events.filter(e => e.category === categoryId).map(e => ({ ...e, contentType: 'event' })), 
+    [events, categoryId]
   );
 
   const categoryMedia = useMemo(() => 
-    media.filter(m => m.category === category.id).map(m => ({ ...m, contentType: 'media' })), 
-    [media, category.id]
+    media.filter(m => m.category === categoryId).map(m => ({ ...m, contentType: 'media' })), 
+    [media, categoryId]
   );
 
   const categoryTrailers = useMemo(() => 
-    trailers.filter(t => t.category === category.id).map(t => ({ ...t, contentType: 'trailer' })), 
-    [trailers, category.id]
+    trailers.filter(t => t.category === categoryId).map(t => ({ ...t, contentType: 'trailer' })), 
+    [trailers, categoryId]
   );
 
   const categoryMerch = useMemo(() => 
-    merchandise.filter(m => m.category === category.id).map(m => ({ ...m, contentType: 'merchandise' })), 
-    [merchandise, category.id]
+    merchandise.filter(m => m.category === categoryId).map(m => ({ ...m, contentType: 'merchandise' })), 
+    [merchandise, categoryId]
   );
 
   const categoryGalleries = useMemo(() => 
-    galleries.filter(g => g.category === category.id).map(g => ({ ...g, contentType: 'gallery' })), 
-    [galleries, category.id]
+    galleries.filter(g => g.category === categoryId).map(g => ({ ...g, contentType: 'gallery' })), 
+    [galleries, categoryId]
   );
 
   // Combine content items for unified catalog filtering and sorting
@@ -126,6 +126,8 @@ export default function CategoryHubPage({
     return list;
   }, [categoryCharacters, categoryArticles, categoryTrailers, categoryMedia, categoryEvents, categoryMerch, categoryGalleries, selectedType, selectedSubTag, sortBy]);
 
+  if (!category) return null;
+
   return (
     <div className="category-hub-view">
       {/* Breadcrumb Navigation */}
@@ -141,48 +143,50 @@ export default function CategoryHubPage({
       <div 
         className="hero-banner"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(10, 10, 12, 0.94), rgba(18, 18, 24, 0.9)), url('${category.heroImage}')`,
-          borderLeft: `5px solid ${category.themeColor}`,
-          marginBottom: '2.5rem'
+          background: '#161616',
+          border: '1px solid #2e2e2e',
+          borderLeft: '4px solid #800020',
+          marginBottom: '2rem',
+          borderRadius: '4px',
+          padding: '2.5rem 2rem'
         }}
       >
         <div 
           className="hero-tag"
           style={{
-            background: category.accentBg,
-            color: category.themeColor,
-            borderColor: category.themeColor
+            background: '#222222',
+            color: '#ffffff',
+            borderColor: '#800020'
           }}
         >
-          <Sparkles size={14} />
           <span>Fandom Hub • {category.name}</span>
         </div>
-        <h1 className="hero-title">{category.name} Universe</h1>
-        <p className="hero-subtitle">{category.description}</p>
+        <h1 className="hero-title" style={{ fontSize: '2.2rem', marginBottom: '0.75rem' }}>{category.name} Universe</h1>
+        <p className="hero-subtitle" style={{ fontSize: '0.98rem', color: '#b0b0b0', marginBottom: '1.5rem' }}>{category.description}</p>
 
         {/* Quick Category Stats */}
-        <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1.5rem' }}>
+        <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1.25rem' }}>
           <div>
-            <span style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff' }}>{categoryCharacters.length}</span>
-            <div style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Character Profiles</div>
+            <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#fff' }}>{categoryCharacters.length}</span>
+            <div style={{ fontSize: '0.8rem', color: '#888888' }}>Character Profiles</div>
           </div>
           <div>
-            <span style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff' }}>{categoryArticles.length}</span>
-            <div style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Featured Articles</div>
+            <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#fff' }}>{categoryArticles.length}</span>
+            <div style={{ fontSize: '0.8rem', color: '#888888' }}>Featured Articles</div>
           </div>
           <div>
-            <span style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff' }}>{categoryEvents.length}</span>
-            <div style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Events & Conventions</div>
+            <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#fff' }}>{categoryEvents.length}</span>
+            <div style={{ fontSize: '0.8rem', color: '#888888' }}>Events & Conventions</div>
           </div>
           <div>
-            <span style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff' }}>{categoryGalleries.length}</span>
-            <div style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Gallery Artworks</div>
+            <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#fff' }}>{categoryGalleries.length}</span>
+            <div style={{ fontSize: '0.8rem', color: '#888888' }}>Gallery Artworks</div>
           </div>
         </div>
       </div>
 
       {/* Category Quick Switcher Tabs */}
-      <div style={{ display: 'flex', gap: '0.5rem', overflowX: 'auto', paddingBottom: '0.75rem', marginBottom: '2rem' }}>
+      <div style={{ display: 'flex', gap: '0.5rem', overflowX: 'auto', paddingBottom: '0.75rem', marginBottom: '1.75rem' }}>
         {allCategories.map(cat => (
           <button
             key={cat.id}
@@ -190,8 +194,9 @@ export default function CategoryHubPage({
             className={`filter-chip ${category.id === cat.id ? 'active' : ''}`}
             onClick={() => onSelectCategory(cat.id)}
             style={{
-              borderColor: category.id === cat.id ? cat.themeColor : 'transparent',
-              background: category.id === cat.id ? cat.themeColor : 'rgba(255,255,255,0.06)'
+              borderColor: category.id === cat.id ? '#800020' : '#333333',
+              background: category.id === cat.id ? '#800020' : '#202020',
+              color: category.id === cat.id ? '#ffffff' : '#cccccc'
             }}
           >
             {cat.name}
@@ -278,7 +283,17 @@ export default function CategoryHubPage({
               <ImageIcon size={20} style={{ color: category.themeColor }} />
               <h3 style={{ fontSize: '1.25rem' }}>{category.name} Image Gallery</h3>
             </div>
-            <span style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Click any artwork to open Lightbox view</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <span style={{ fontSize: '0.82rem', color: '#94a3b8' }}>Click any artwork to open Lightbox view</span>
+              <button 
+                type="button" 
+                className="btn-secondary" 
+                style={{ padding: '0.25rem 0.65rem', fontSize: '0.78rem' }}
+                onClick={() => onNavigate('gallery', category.id)}
+              >
+                Open in Full Gallery &rarr;
+              </button>
+            </div>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
@@ -307,7 +322,7 @@ export default function CategoryHubPage({
                     position: 'absolute',
                     bottom: 0,
                     insetInline: 0,
-                    background: 'linear-gradient(to top, rgba(0,0,0,0.85), transparent)',
+                    background: 'rgba(0, 0, 0, 0.75)',
                     padding: '0.5rem 0.75rem',
                     color: '#fff',
                     fontSize: '0.82rem',
@@ -476,8 +491,8 @@ export default function CategoryHubPage({
 
                       {item.contentType === 'event' && (
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.8rem' }}>
-                          <span className="trait-pill" style={{ color: '#2ed573' }}>{item.status?.toUpperCase()}</span>
-                          <span style={{ color: '#94a3b8' }}>📍 {item.location?.split(',')[0]}</span>
+                          <span className="trait-pill" style={{ color: '#ffffff', borderColor: '#800020' }}>{item.status?.toUpperCase()}</span>
+                          <span style={{ color: '#b0b0b0' }}>Location: {item.location?.split(',')[0]}</span>
                         </div>
                       )}
 

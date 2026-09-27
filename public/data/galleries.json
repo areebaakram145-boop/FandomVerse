@@ -29,6 +29,26 @@
     "caption": "Golden ocean reflections as the Straw Hat crew ventures toward the next mysterious Grand Line island.",
     "artist": "GrandLine Art"
   },
+  {
+    "id": "gal-anime-4",
+    "category": "anime",
+    "title": "Gojo Satoru's Infinite Void Domain Expansion",
+    "franchise": "Jujutsu Kaisen",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+    "caption": "The absolute singularity of limitless cursed energy manifesting into boundless cosmic cosmos.",
+    "artist": "MAPPA Visuals"
+  },
+  {
+    "id": "gal-anime-5",
+    "category": "anime",
+    "title": "Spirited Forest of Ancient Kodama Spirits",
+    "franchise": "Studio Ghibli: Princess Mononoke",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80",
+    "caption": "Emerald moss-covered sacred woods untouched by human flame, bathed in twilight mist.",
+    "artist": "Miyazaki World"
+  },
 
   {
     "id": "gal-gaming-1",
@@ -59,6 +79,26 @@
     "thumbnail": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=500&q=80",
     "caption": "Ancient Zonai architecture floating serenely in the boundless turquoise sky.",
     "artist": "Hyrule Cartography"
+  },
+  {
+    "id": "gal-gaming-4",
+    "category": "gaming",
+    "title": "Narshe Snowfield Magitek Walkers at Dawn",
+    "franchise": "Final Fantasy Rebirth",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=500&q=80",
+    "caption": "Cold blizzard winds sweeping across towering crystal spires and mechanical titans.",
+    "artist": "Midgar Architectural Lab"
+  },
+  {
+    "id": "gal-gaming-5",
+    "category": "gaming",
+    "title": "Kaer Morhen Battlements and Sunset Horizon",
+    "franchise": "The Witcher 3: Wild Hunt",
+    "imageUrl": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=500&q=80",
+    "caption": "Golden amber light cascading across mountain ramparts and rolling northern valley meadows.",
+    "artist": "Oxenfurt Guild"
   },
 
   {
@@ -91,6 +131,26 @@
     "caption": "A gothic monolith standing vigil over the neon-soaked corruption of Gotham.",
     "artist": "Wayne Shadows"
   },
+  {
+    "id": "gal-movies-4",
+    "category": "movies",
+    "title": "Gargantua Black Hole Gravitational Lensing",
+    "franchise": "Interstellar",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=500&q=80",
+    "caption": "A supermassive rotating black hole bending starlight through an incandescent accretion disk.",
+    "artist": "Nolan Spacecraft Works"
+  },
+  {
+    "id": "gal-movies-5",
+    "category": "movies",
+    "title": "Cybernetic Replicant Metropolis in Smog",
+    "franchise": "Blade Runner 2049",
+    "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f30bc75b82?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1477959858617-67f30bc75b82?auto=format&fit=crop&w=500&q=80",
+    "caption": "Towering copper-hued pyramids rising through dense synthetic atmospheric dust.",
+    "artist": "Deakins Cinematography"
+  },
 
   {
     "id": "gal-tv-1",
@@ -121,6 +181,26 @@
     "thumbnail": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
     "caption": "Industrial smoke, cobblestone reflections, and peak caps in 1919 Birmingham.",
     "artist": "Shelby Heritage"
+  },
+  {
+    "id": "gal-tv-4",
+    "category": "tv-shows",
+    "title": "Dragonpit Ruin Smolder",
+    "franchise": "House of the Dragon",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+    "caption": "Ancient stone vaults scorched by dragonfire during the dynastic Targaryen civil war.",
+    "artist": "Targaryen Chronicles"
+  },
+  {
+    "id": "gal-tv-5",
+    "category": "tv-shows",
+    "title": "High Desert Horizon Sunset",
+    "franchise": "Breaking Bad & Better Call Saul",
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=500&q=80",
+    "caption": "Vibrant southwestern desert expanses silhouetting legendary chemistry empires.",
+    "artist": "Albuquerque Still Frames"
   },
 
   {
@@ -153,6 +233,26 @@
     "caption": "Holographic prisms and cyberspace glitch aesthetics from the SM Culture Universe.",
     "artist": "SM Creative Labs"
   },
+  {
+    "id": "gal-kpop-4",
+    "category": "k-pop",
+    "title": "Neo Pearl Champagne Sea of Light",
+    "franchise": "NCT 127",
+    "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=500&q=80",
+    "caption": "Tens of thousands of synchronized neon green prisms pulsing to futuristic synth basslines.",
+    "artist": "SM Production Lab"
+  },
+  {
+    "id": "gal-kpop-5",
+    "category": "k-pop",
+    "title": "Midnight Arena Confetti Rainfall",
+    "franchise": "TWICE World Tour",
+    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=500&q=80",
+    "caption": "A cascade of iridescent metallic foil descending over an ecstatic crowd.",
+    "artist": "JYP Live Camera"
+  },
 
   {
     "id": "gal-comics-1",
@@ -184,6 +284,26 @@
     "caption": "Shi'ar holographic technology materializing Sentinel threats for mutant combat training.",
     "artist": "Krakoan Archives"
   },
+  {
+    "id": "gal-comics-4",
+    "category": "comics",
+    "title": "Justice League Orbiting Watchtower",
+    "franchise": "DC Comics",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=500&q=80",
+    "caption": "Earth's vanguard space station orbiting high in the thermosphere against a blue crescent horizon.",
+    "artist": "Hall of Justice Ink"
+  },
+  {
+    "id": "gal-comics-5",
+    "category": "comics",
+    "title": "Multiversal Cosmic Web of Realities",
+    "franchise": "Spider-Verse",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+    "caption": "Intricate crystalline threads weaving billions of alternate dimensions and timeline strands.",
+    "artist": "Web of Life & Destiny"
+  },
 
   {
     "id": "gal-manga-1",
@@ -214,5 +334,25 @@
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
     "caption": "A terrifying cosmic alignment casting an ominous hand reaching toward the heavens.",
     "artist": "Miura Legacy"
+  },
+  {
+    "id": "gal-manga-4",
+    "category": "manga",
+    "title": "Vagabond: Quiet Reflection Under the Willows",
+    "franchise": "Vagabond",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80",
+    "caption": "Exquisite dynamic ink brush strokes capturing the solitary philosophical path of Musashi.",
+    "artist": "Inoue Masterworks"
+  },
+  {
+    "id": "gal-manga-5",
+    "category": "manga",
+    "title": "The Colossal Titan Peering Over Wall Maria",
+    "franchise": "Attack on Titan",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=500&q=80",
+    "caption": "Steam billowing 50 meters into the azure sky as humanity remembers the terror of cages.",
+    "artist": "Shingeki Archives"
   }
 ]

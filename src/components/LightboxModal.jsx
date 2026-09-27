@@ -83,8 +83,8 @@ export default function LightboxModal({
               maxHeight: '68vh',
               maxWidth: '100%',
               margin: '0 auto',
-              borderRadius: '12px',
-              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.9)',
+              borderRadius: '4px',
+              border: '1px solid #333',
               objectFit: 'contain'
             }}
           />
@@ -99,21 +99,20 @@ export default function LightboxModal({
                 left: '10px',
                 top: '50%',
                 transform: 'translateY(-50%)',
-                width: '45px',
-                height: '45px',
-                borderRadius: '50%',
-                background: 'rgba(15, 23, 42, 0.75)',
+                width: '42px',
+                height: '42px',
+                borderRadius: '4px',
+                background: '#800020',
                 color: '#fff',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                border: '1px solid rgba(255,255,255,0.2)',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
+                border: '1px solid #a31d36',
+                cursor: 'pointer'
               }}
               aria-label="Previous image"
             >
-              <ChevronLeft size={24} />
+              <ChevronLeft size={22} />
             </button>
           )}
 
@@ -127,21 +126,20 @@ export default function LightboxModal({
                 right: '10px',
                 top: '50%',
                 transform: 'translateY(-50%)',
-                width: '45px',
-                height: '45px',
-                borderRadius: '50%',
-                background: 'rgba(15, 23, 42, 0.75)',
+                width: '42px',
+                height: '42px',
+                borderRadius: '4px',
+                background: '#800020',
                 color: '#fff',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                border: '1px solid rgba(255,255,255,0.2)',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
+                border: '1px solid #a31d36',
+                cursor: 'pointer'
               }}
               aria-label="Next image"
             >
-              <ChevronRight size={24} />
+              <ChevronRight size={22} />
             </button>
           )}
         </div>
@@ -160,7 +158,7 @@ export default function LightboxModal({
             {currentImage.caption || currentImage.description}
           </p>
           {currentImage.artist && (
-            <div style={{ fontSize: '0.8rem', color: '#818cf8' }}>
+            <div style={{ fontSize: '0.8rem', color: '#c23351' }}>
               Artwork Credit: {currentImage.artist} ({currentImage.franchise})
             </div>
           )}

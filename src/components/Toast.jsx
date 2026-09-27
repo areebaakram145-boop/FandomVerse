@@ -17,9 +17,9 @@ export default function Toast({ message, type = 'success', onClose, duration = 3
   if (!message) return null;
 
   const icons = {
-    success: <CheckCircle2 size={18} style={{ color: '#2ed573' }} />,
+    success: <CheckCircle2 size={18} style={{ color: '#c23351' }} />,
     error: <AlertCircle size={18} style={{ color: '#ef4444' }} />,
-    info: <Info size={18} style={{ color: 'var(--primary)' }} />
+    info: <Info size={18} style={{ color: '#800020' }} />
   };
 
   return (
@@ -29,20 +29,16 @@ export default function Toast({ message, type = 'success', onClose, duration = 3
         top: '20px',
         right: '20px',
         zIndex: 1200,
-        background: 'var(--bg-card)',
-        backdropFilter: 'blur(20px)',
-        WebkitBackdropFilter: 'blur(20px)',
-        border: '1px solid var(--border-hover)',
-        borderRadius: 'var(--radius-md)',
-        padding: '0.9rem 1.35rem',
-        boxShadow: 'var(--shadow-card), var(--shadow-glow)',
+        background: '#1a1a1a',
+        border: '1px solid #800020',
+        borderRadius: '4px',
+        padding: '0.85rem 1.25rem',
         display: 'flex',
         alignItems: 'center',
         gap: '0.75rem',
-        color: 'var(--text-main)',
-        fontSize: '0.92rem',
-        fontWeight: 500,
-        animation: 'fadeIn 0.2s ease-out'
+        color: '#f5f5f5',
+        fontSize: '0.9rem',
+        fontWeight: 500
       }}
     >
       {icons[type] || icons.info}

@@ -106,8 +106,8 @@ export default function AuthModal({ isOpen, onClose }) {
             </div>
 
             {/* SRS Notice */}
-            <p style={{ fontSize: '0.78rem', color: '#94a3b8', marginBottom: '1.25rem', background: 'rgba(255,255,255,0.03)', padding: '0.5rem 0.75rem', borderRadius: '6px' }}>
-              ℹ️ <strong>Note:</strong> UI simulation only. No sensitive passwords or backend credentials required.
+            <p style={{ fontSize: '0.78rem', color: '#94a3b8', marginBottom: '1.25rem', background: '#1f1f1f', padding: '0.5rem 0.75rem', borderRadius: '4px', border: '1px solid #2e2e2e' }}>
+              <strong>Note:</strong> UI simulation only. No sensitive passwords or backend credentials required.
             </p>
 
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

@@ -121,14 +121,14 @@ export default function CharactersPage({
 
               <div className="card-body">
                 <div className="card-meta-line">
-                  <span style={{ color: '#818cf8', fontWeight: 600 }}>{char.franchise}</span>
+                  <span style={{ color: '#c23351', fontWeight: 600 }}>{char.franchise}</span>
                 </div>
 
                 <h3 className="card-title" style={{ cursor: 'pointer' }} onClick={() => onOpenCharacter(char)}>
                   {char.name}
                 </h3>
 
-                <div style={{ fontSize: '0.82rem', color: '#a5b4fc', marginBottom: '0.65rem' }}>
+                <div style={{ fontSize: '0.82rem', color: '#a3a3a3', marginBottom: '0.65rem' }}>
                   {char.role}
                 </div>
 
@@ -141,7 +141,7 @@ export default function CharactersPage({
 
                 {/* Quote teaser */}
                 {char.quote && (
-                  <div style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#94a3b8', marginBottom: '0.75rem', borderLeft: '2px solid rgba(99,102,241,0.5)', paddingLeft: '6px' }}>
+                  <div style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#a3a3a3', marginBottom: '0.75rem', borderLeft: '2px solid #800020', paddingLeft: '6px' }}>
                     "{char.quote.length > 70 ? char.quote.slice(0, 70) + '...' : char.quote}"
                   </div>
                 )}

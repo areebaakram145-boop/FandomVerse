@@ -17,8 +17,8 @@ export default function CharacterDetailModal({
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div 
-        className="modal-dialog" 
+      <div
+        className="modal-dialog"
         style={{ maxWidth: '680px' }}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
@@ -30,9 +30,9 @@ export default function CharacterDetailModal({
         <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
           {/* Character Avatar */}
           <div style={{ position: 'relative', width: '200px', height: '260px', borderRadius: '12px', overflow: 'hidden', flexShrink: 0 }}>
-            <img 
-              src={character.image} 
-              alt={character.name} 
+            <img
+              src={character.image}
+              alt={character.name}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
             <button
@@ -48,7 +48,7 @@ export default function CharacterDetailModal({
 
           {/* Character Identity & Details */}
           <div style={{ flexGrow: 1, minWidth: '240px' }}>
-            <span 
+            <span
               style={{
                 fontSize: '0.75rem',
                 fontWeight: 700,
@@ -83,8 +83,8 @@ export default function CharacterDetailModal({
               </div>
               <div className="traits-pills-list">
                 {character.traits?.map((trait, idx) => (
-                  <span key={idx} className="trait-pill" style={{ borderColor: 'rgba(99,102,241,0.3)', color: '#e0e7ff' }}>
-                    ✦ {trait}
+                  <span key={idx} className="trait-pill" style={{ borderColor: '#800020', color: '#f0f0f0', background: '#222222' }}>
+                    {trait}
                   </span>
                 ))}
               </div>
@@ -94,7 +94,7 @@ export default function CharacterDetailModal({
 
         {/* Famous Character Quote */}
         {character.quote && (
-          <div 
+          <div
             style={{
               background: 'rgba(255, 255, 255, 0.04)',
               borderLeft: '4px solid var(--primary)',

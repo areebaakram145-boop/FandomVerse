@@ -115,7 +115,7 @@ export default function EventsPage({
                       fontSize: '0.75rem', 
                       fontWeight: 700, 
                       textTransform: 'uppercase',
-                      color: isUpcoming ? '#2ed573' : '#94a3b8' 
+                      color: isUpcoming ? '#c23351' : '#a3a3a3' 
                     }}
                   >
                     ● {event.status} ({event.type})

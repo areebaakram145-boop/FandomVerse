@@ -23,6 +23,7 @@ import MediaPage from './pages/MediaPage';
 import TrailersPage from './pages/TrailersPage';
 import EventsPage from './pages/EventsPage';
 import MerchandisePage from './pages/MerchandisePage';
+import GalleryPage from './pages/GalleryPage';
 import BookmarksPage from './pages/BookmarksPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -92,9 +93,9 @@ export default function App() {
     setToast({ message, type });
   };
 
-  // Fixed Black, White & Red Theme (Single Master Theme)
+  // Fixed Burgundy & Black Theme
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', 'aurora');
+    document.documentElement.setAttribute('data-theme', 'burgundy');
     localStorage.removeItem('fandomverse_theme');
   }, []);
 
@@ -157,9 +158,10 @@ export default function App() {
       ...trailers.map(t => ({ ...t, contentType: 'trailer' })),
       ...media.map(m => ({ ...m, contentType: 'media' })),
       ...events.map(e => ({ ...e, contentType: 'event' })),
-      ...merchandise.map(m => ({ ...m, contentType: 'merchandise' }))
+      ...merchandise.map(m => ({ ...m, contentType: 'merchandise' })),
+      ...galleries.map(g => ({ ...g, contentType: 'gallery' }))
     ];
-  }, [characters, articles, trailers, media, events, merchandise]);
+  }, [characters, articles, trailers, media, events, merchandise, galleries]);
 
   // Active Category Object
   const currentCategory = useMemo(() => {
@@ -267,6 +269,8 @@ export default function App() {
       handleNavigate('merchandise');
     } else if (item.contentType === 'event') {
       handleNavigate('events');
+    } else if (item.contentType === 'gallery') {
+      handleNavigate('gallery', item.category);
     } else if (item.category) {
       handleNavigate('category-hub', item.category);
     }
@@ -275,22 +279,15 @@ export default function App() {
   if (loading) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', background: 'var(--bg-primary)', color: 'var(--text-main)' }}>
-        <div className="live-indicator" style={{ width: '22px', height: '22px', marginBottom: '1.25rem', background: 'var(--primary)', boxShadow: '0 0 15px var(--primary)' }}></div>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, fontFamily: "'Outfit', sans-serif" }}>Loading FandomVerse...</h2>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '0.5rem' }}>Preparing 7 Curated Fandom Universes</p>
+        <div className="live-indicator" style={{ width: '16px', height: '16px', marginBottom: '1rem', background: 'var(--primary)' }}></div>
+        <h2 style={{ fontSize: '1.4rem', fontWeight: 700 }}>Loading FandomVerse...</h2>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginTop: '0.4rem' }}>Preparing 7 Curated Fandom Universes</p>
       </div>
     );
   }
 
   return (
-    <div className="app-root-layout" data-theme="aurora">
-      {/* Dynamic Ambient Mesh Lighting Background */}
-      <div className="ambient-glow-background" aria-hidden="true">
-        <div className="ambient-glow-orb-1" />
-        <div className="ambient-glow-orb-2" />
-        <div className="ambient-glow-orb-3" />
-      </div>
-
+    <div className="app-root-layout" data-theme="burgundy">
       {/* Action Toast Notifications */}
       <Toast 
         message={toast.message} 
@@ -320,10 +317,14 @@ export default function App() {
             events={events}
             characters={characters}
             merchandise={merchandise}
+            media={media}
+            galleries={galleries}
             onNavigate={handleNavigate}
             onOpenArticle={(art) => setActiveArticle(art)}
             onOpenTrailer={(tr) => setActiveMedia(tr)}
+            onOpenMedia={(med) => setActiveMedia(med)}
             onOpenCharacter={(ch) => setActiveCharacter(ch)}
+            onOpenGalleryLightbox={(galleryImages, index) => handleOpenLightbox(galleryImages, index)}
             onAddToCart={handleAddToCart}
             onToggleBookmark={handleToggleBookmark}
             bookmarkedIds={bookmarkedIds}
@@ -410,6 +411,19 @@ export default function App() {
             onToggleBookmark={handleToggleBookmark}
             bookmarkedIds={bookmarkedIds}
             onNavigate={handleNavigate}
+          />
+        )}
+
+        {activePage === 'gallery' && (
+          <GalleryPage
+            key={selectedCategoryId}
+            galleries={galleries}
+            categories={categories}
+            onOpenGalleryLightbox={(galleryImages, index) => handleOpenLightbox(galleryImages, index)}
+            onToggleBookmark={handleToggleBookmark}
+            bookmarkedIds={bookmarkedIds}
+            onNavigate={handleNavigate}
+            initialCategory={selectedCategoryId}
           />
         )}
 

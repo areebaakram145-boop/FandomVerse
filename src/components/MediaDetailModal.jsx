@@ -32,39 +32,38 @@ export default function MediaDetailModal({
         {isAudio ? (
           <div
             style={{
-              background: 'linear-gradient(135deg, #1e2638, #2a1f42)',
-              borderRadius: '12px',
+              background: '#141414',
+              borderRadius: '4px',
               padding: '2.5rem 1.5rem',
               textAlign: 'center',
               marginBottom: '1.5rem',
-              border: '1px solid rgba(255,255,255,0.08)'
+              border: '1px solid #2e2e2e'
             }}
           >
             <div
               style={{
-                width: '64px',
-                height: '64px',
-                borderRadius: '50%',
-                background: 'rgba(99,102,241,0.3)',
-                color: '#818cf8',
+                width: '56px',
+                height: '56px',
+                borderRadius: '4px',
+                background: '#800020',
+                color: '#ffffff',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 margin: '0 auto 1.25rem'
               }}
             >
-              <Volume2 size={32} />
+              <Volume2 size={28} />
             </div>
-            <h4 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>Audio Podcast Stream</h4>
-            <p style={{ color: '#94a3b8', fontSize: '0.85rem', marginBottom: '1.5rem' }}>{mediaItem.title}</p>
-
+            <h4 style={{ fontSize: '1.2rem', marginBottom: '0.5rem', color: '#f5f5f5' }}>Audio Podcast Stream</h4>
+            <p style={{ color: '#a3a3a3', fontSize: '0.85rem', marginBottom: '1.5rem' }}>{mediaItem.title}</p>
             <audio controls style={{ width: '100%', maxWidth: '500px' }}>
               <source src={mediaItem.audioUrl || "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"} type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </div>
         ) : (
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', background: '#000' }}>
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, borderRadius: '4px', overflow: 'hidden', marginBottom: '1.5rem', background: '#000', border: '1px solid #2e2e2e' }}>
             <iframe
               src={mediaItem.videoUrl || "https://www.youtube.com/embed/dQw4w9WgXcQ"}
               title={mediaItem.title}
@@ -85,15 +84,16 @@ export default function MediaDetailModal({
                 textTransform: 'uppercase',
                 padding: '2px 8px',
                 borderRadius: '4px',
-                background: 'rgba(99,102,241,0.2)',
-                color: '#a5b4fc',
+                background: '#241015',
+                color: '#e28b9c',
+                border: '1px solid #800020',
                 display: 'inline-block',
                 marginBottom: '0.4rem'
               }}
             >
               {mediaItem.category} • {mediaItem.type || 'Trailer'}
             </span>
-            <h3 style={{ fontSize: '1.5rem', lineHeight: 1.3 }}>{mediaItem.title}</h3>
+            <h3 style={{ fontSize: '1.3rem', lineHeight: 1.3, color: '#ffffff' }}>{mediaItem.title}</h3>
           </div>
 
           <button
@@ -107,8 +107,8 @@ export default function MediaDetailModal({
           </button>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem', color: '#94a3b8', fontSize: '0.85rem', marginBottom: '1rem' }}>
-          {mediaItem.duration && <span>⏱ Duration: {mediaItem.duration}</span>}
+        <div style={{ display: 'flex', gap: '1rem', color: '#a3a3a3', fontSize: '0.85rem', marginBottom: '1rem' }}>
+          {mediaItem.duration && <span>Duration: {mediaItem.duration}</span>}
           {mediaItem.author && <span>By {mediaItem.author}</span>}
           {mediaItem.releaseStatus && <span style={{ textTransform: 'capitalize' }}>Status: {mediaItem.releaseStatus}</span>}
         </div>

@@ -71,21 +71,22 @@ export default function MerchandisePage({
       {/* SRS Project Notice */}
       <div 
         style={{
-          background: 'rgba(46, 213, 115, 0.08)',
-          border: '1px solid rgba(46, 213, 115, 0.25)',
-          borderRadius: '10px',
+          background: '#161616',
+          border: '1px solid #2e2e2e',
+          borderLeft: '4px solid #800020',
+          borderRadius: '4px',
           padding: '0.85rem 1.25rem',
           marginBottom: '1.5rem',
           fontSize: '0.84rem',
-          color: '#86efac',
+          color: '#d4d4d4',
           display: 'flex',
           alignItems: 'center',
           gap: '10px'
         }}
       >
-        <Info size={18} style={{ flexShrink: 0 }} />
+        <Info size={18} style={{ flexShrink: 0, color: '#c23351' }} />
         <span>
-          <strong>SRS Compliance Notice:</strong> This showcase includes dynamic client-side shopping cart calculations (subtotal, tax, discounts). Checkout and online payments are not included as per Aptech competition specifications.
+          <strong style={{ color: '#ffffff' }}>SRS Compliance Notice:</strong> This showcase includes dynamic client-side shopping cart calculations (subtotal, tax, discounts). Checkout and online payments are not included as per Aptech competition specifications.
         </span>
       </div>
 
@@ -239,7 +240,7 @@ export default function MerchandisePage({
               <img 
                 src={selectedProduct.image} 
                 alt={selectedProduct.name}
-                style={{ width: '220px', height: '220px', borderRadius: '10px', objectFit: 'cover' }}
+                style={{ width: '220px', height: '220px', borderRadius: '4px', objectFit: 'cover' }}
               />
               <div style={{ flexGrow: 1, minWidth: '220px' }}>
                 <span className="trait-pill" style={{ color: 'var(--accent-gold)', marginBottom: '0.4rem', display: 'inline-block' }}>

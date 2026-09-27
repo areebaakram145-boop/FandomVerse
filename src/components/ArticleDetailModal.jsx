@@ -35,7 +35,7 @@ export default function ArticleDetailModal({
 
         {/* Hero Image */}
         {article.image && (
-          <div style={{ borderRadius: '12px', overflow: 'hidden', height: '320px', marginBottom: '1.5rem', position: 'relative' }}>
+          <div style={{ borderRadius: '4px', overflow: 'hidden', height: '320px', marginBottom: '1.5rem', position: 'relative', border: '1px solid #2e2e2e' }}>
             <img 
               src={article.image} 
               alt={article.title} 
@@ -46,10 +46,10 @@ export default function ArticleDetailModal({
                 position: 'absolute',
                 top: 15,
                 left: 15,
-                background: 'rgba(15,23,42,0.85)',
+                background: '#800020',
                 color: '#fff',
                 padding: '4px 10px',
-                borderRadius: '6px',
+                borderRadius: '4px',
                 fontSize: '0.78rem',
                 fontWeight: 700,
                 textTransform: 'uppercase'
@@ -77,7 +77,7 @@ export default function ArticleDetailModal({
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', color: '#94a3b8', fontSize: '0.85rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
-            <User size={14} style={{ color: '#818cf8' }} />
+            <User size={14} style={{ color: '#c23351' }} />
             <span>By {article.author || 'Fandom Staff'}</span>
           </span>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
@@ -114,7 +114,7 @@ export default function ArticleDetailModal({
 
         {/* Related Articles Suggestions */}
         {relatedArticles.length > 0 && (
-          <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1.5rem' }}>
+          <div style={{ borderTop: '1px solid #2e2e2e', paddingTop: '1.5rem' }}>
             <h4 style={{ fontSize: '1.15rem', marginBottom: '1rem', color: '#fff' }}>
               Related Stories in {article.category?.toUpperCase()}
             </h4>
@@ -124,18 +124,18 @@ export default function ArticleDetailModal({
                   key={rel.id}
                   onClick={() => onSelectArticle(rel)}
                   style={{
-                    background: 'rgba(255,255,255,0.03)',
-                    border: '1px solid rgba(255,255,255,0.06)',
-                    borderRadius: '8px',
+                    background: '#161616',
+                    border: '1px solid #2e2e2e',
+                    borderRadius: '4px',
                     padding: '0.85rem',
                     cursor: 'pointer',
-                    transition: 'all 0.2s'
+                    transition: 'border-color 0.2s'
                   }}
-                  onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.07)'}
-                  onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.03)'}
+                  onMouseEnter={(e) => e.currentTarget.style.borderColor = '#800020'}
+                  onMouseLeave={(e) => e.currentTarget.style.borderColor = '#2e2e2e'}
                 >
-                  <h5 style={{ fontSize: '0.95rem', marginBottom: '0.35rem' }}>{rel.title}</h5>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.78rem', color: '#818cf8' }}>
+                  <h5 style={{ fontSize: '0.95rem', marginBottom: '0.35rem', color: '#f5f5f5' }}>{rel.title}</h5>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.78rem', color: '#c23351' }}>
                     <span>{rel.readTime}</span>
                     <ArrowRight size={14} />
                   </div>

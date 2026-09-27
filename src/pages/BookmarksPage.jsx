@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
-import { Bookmark, Download, Trash2, Edit3, Save, FileText, Sparkles, AlertCircle } from 'lucide-react';
+import { Bookmark, Download, Trash2, Edit3, Save, FileText, Sparkles, AlertCircle, FileSpreadsheet } from 'lucide-react';
 import Breadcrumb from '../components/Breadcrumb';
-import { exportBookmarksAsText } from '../utils/exportHelper';
+import { exportBookmarksAsText, exportBookmarksAsExcel } from '../utils/exportHelper';
 
-/**
- * BookmarksPage Component
- * Fulfills SRS Requirement:
- * "Bookmarks are stored in browser's local storage.
- * Personal notes remain only for the current browser session using Session Storage.
- * Favorite articles, media, characters, and events.
- * Personal notes attached to bookmarked content (session-only).
- * Export bookmarks as a formatted list."
- */
 export default function BookmarksPage({
   bookmarks = [],
   sessionNotes = {},
@@ -41,15 +32,19 @@ export default function BookmarksPage({
     setEditingNoteId(null);
   };
 
-  const handleExport = () => {
+  const handleExportText = () => {
     exportBookmarksAsText(bookmarks, sessionNotes);
+  };
+
+  const handleExportExcel = () => {
+    exportBookmarksAsExcel(bookmarks, sessionNotes);
   };
 
   return (
     <div className="bookmarks-page-view">
-      <Breadcrumb 
-        crumbs={[{ label: 'Saved Bookmarks & Personal Notes' }]} 
-        onHomeClick={() => onNavigate('home')} 
+      <Breadcrumb
+        crumbs={[{ label: 'Saved Bookmarks & Personal Notes' }]}
+        onHomeClick={() => onNavigate('home')}
       />
 
       <div className="section-head-wrap">
@@ -63,40 +58,46 @@ export default function BookmarksPage({
           </p>
         </div>
 
-        <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-          <button 
-            type="button" 
-            className="btn-primary"
-            onClick={handleExport}
+        <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', flexWrap: 'wrap' }}>
+          <button
+            type="button"
+            className="btn-secondary"
+            onClick={handleExportText}
             disabled={bookmarks.length === 0}
-            style={{ opacity: bookmarks.length === 0 ? 0.5 : 1 }}
+            style={{
+              opacity: bookmarks.length === 0 ? 0.5 : 1,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+            title="Download bookmarks formatted as a clean text file (.txt)"
           >
             <Download size={16} />
-            <span>Export Bookmarks List (.txt)</span>
+            <span>Export Text (.txt)</span>
+          </button>
+
+          <button
+            type="button"
+            className="btn-primary"
+            onClick={handleExportExcel}
+            disabled={bookmarks.length === 0}
+            style={{
+              opacity: bookmarks.length === 0 ? 0.5 : 1,
+              background: '#800020',
+              borderColor: '#800020',
+              boxShadow: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+            title="Download bookmarks as an Excel spreadsheet (.xls) with custom styling and columns"
+          >
+            <FileSpreadsheet size={16} />
+            <span>Export to Excel (.xls)</span>
           </button>
         </div>
       </div>
 
-      {/* SRS Storage Architecture Notice */}
-      <div 
-        style={{
-          background: 'rgba(255, 71, 87, 0.08)',
-          border: '1px solid rgba(255, 71, 87, 0.25)',
-          borderRadius: '10px',
-          padding: '0.85rem 1.25rem',
-          marginBottom: '1.5rem',
-          fontSize: '0.84rem',
-          color: '#fca5a5',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '10px'
-        }}
-      >
-        <AlertCircle size={18} style={{ flexShrink: 0 }} />
-        <span>
-          <strong>SRS Storage Architecture:</strong> Bookmarks persist in browser <code>LocalStorage</code>. Personal notes attached to bookmarks are held in <code>SessionStorage</code> and reset when you close the browser tab.
-        </span>
-      </div>
 
       {/* Filter Chips */}
       <div className="filter-sort-bar">
@@ -108,7 +109,8 @@ export default function BookmarksPage({
             { id: 'trailer', label: 'Trailers' },
             { id: 'media', label: 'Media' },
             { id: 'event', label: 'Events' },
-            { id: 'merchandise', label: 'Merchandise' }
+            { id: 'merchandise', label: 'Merchandise' },
+            { id: 'gallery', label: 'Galleries' }
           ].map(t => (
             <button
               key={t.id}
@@ -141,7 +143,7 @@ export default function BookmarksPage({
             const isEditing = editingNoteId === item.id;
 
             return (
-              <div 
+              <div
                 key={`${item.contentType}-${item.id}`}
                 style={{
                   background: 'var(--bg-card)',
@@ -155,9 +157,9 @@ export default function BookmarksPage({
               >
                 {/* Thumbnail */}
                 <div style={{ width: '90px', height: '90px', borderRadius: '8px', overflow: 'hidden', flexShrink: 0 }}>
-                  <img 
-                    src={item.image || item.thumbnail} 
-                    alt={item.title || item.name} 
+                  <img
+                    src={item.image || item.thumbnail || item.imageUrl}
+                    alt={item.title || item.name}
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
@@ -167,7 +169,7 @@ export default function BookmarksPage({
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                     <div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
-                        <span 
+                        <span
                           style={{
                             fontSize: '0.7rem',
                             fontWeight: 700,
@@ -193,8 +195,8 @@ export default function BookmarksPage({
                       </div>
                     </div>
 
-                    <button 
-                      type="button" 
+                    <button
+                      type="button"
                       onClick={() => onRemoveBookmark(item.id)}
                       style={{ color: '#ef4444', padding: '6px', cursor: 'pointer', borderRadius: '6px', background: 'rgba(239, 68, 68, 0.1)' }}
                       title="Remove from favorites"
@@ -204,7 +206,7 @@ export default function BookmarksPage({
                   </div>
 
                   {/* Personal Session Note Section */}
-                  <div 
+                  <div
                     style={{
                       marginTop: '1rem',
                       background: 'rgba(255,255,255,0.03)',
@@ -220,7 +222,7 @@ export default function BookmarksPage({
                       </span>
 
                       {!isEditing && (
-                        <button 
+                        <button
                           type="button"
                           onClick={() => handleStartEditNote(item.id)}
                           style={{ fontSize: '0.75rem', color: '#818cf8', cursor: 'pointer' }}
@@ -251,8 +253,8 @@ export default function BookmarksPage({
                           }}
                         />
                         <div style={{ display: 'flex', gap: '6px', marginTop: '0.5rem' }}>
-                          <button 
-                            type="button" 
+                          <button
+                            type="button"
                             className="btn-primary"
                             style={{ padding: '0.35rem 0.75rem', fontSize: '0.78rem' }}
                             onClick={() => handleSaveDraftNote(item.id)}
@@ -260,8 +262,8 @@ export default function BookmarksPage({
                             <Save size={13} />
                             <span>Save Note</span>
                           </button>
-                          <button 
-                            type="button" 
+                          <button
+                            type="button"
                             className="btn-secondary"
                             style={{ padding: '0.35rem 0.75rem', fontSize: '0.78rem' }}
                             onClick={() => setEditingNoteId(null)}

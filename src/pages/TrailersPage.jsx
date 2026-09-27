@@ -113,18 +113,18 @@ export default function TrailersPage({
                 >
                   <div 
                     style={{
-                      width: '48px',
-                      height: '48px',
-                      borderRadius: '50%',
-                      background: 'rgba(99, 102, 241, 0.9)',
+                      width: '44px',
+                      height: '44px',
+                      borderRadius: '4px',
+                      background: '#800020',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       color: '#fff',
-                      boxShadow: '0 4px 15px rgba(0,0,0,0.6)'
+                      border: '1px solid #a31d36'
                     }}
                   >
-                    <Play size={22} style={{ marginLeft: '3px' }} />
+                    <Play size={20} style={{ marginLeft: '2px' }} />
                   </div>
                 </div>
 
@@ -149,7 +149,7 @@ export default function TrailersPage({
                     style={{ 
                       fontWeight: 700, 
                       fontSize: '0.78rem',
-                      color: isUpcoming ? '#ffa502' : '#2ed573',
+                      color: isUpcoming ? '#e28b9c' : '#c23351',
                       textTransform: 'uppercase'
                     }}
                   >

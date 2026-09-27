@@ -35,9 +35,9 @@ export default function CartDrawer({
         {/* Cart Header */}
         <div className="cart-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <ShoppingBag size={20} style={{ color: '#818cf8' }} />
+            <ShoppingBag size={20} style={{ color: '#c23351' }} />
             <h3 style={{ fontSize: '1.25rem' }}>Temporary Cart</h3>
-            <span style={{ fontSize: '0.8rem', color: '#94a3b8' }}>
+            <span style={{ fontSize: '0.8rem', color: '#a3a3a3' }}>
               ({cartItems.reduce((acc, i) => acc + i.quantity, 0)} items)
             </span>
           </div>
@@ -49,21 +49,22 @@ export default function CartDrawer({
         {/* Informative SRS Banner */}
         <div 
           style={{
-            background: 'rgba(99, 102, 241, 0.1)',
-            border: '1px solid rgba(99, 102, 241, 0.25)',
-            borderRadius: '8px',
+            background: '#161616',
+            border: '1px solid #2e2e2e',
+            borderLeft: '4px solid #800020',
+            borderRadius: '4px',
             padding: '0.65rem 0.85rem',
             marginBottom: '1rem',
             fontSize: '0.78rem',
-            color: '#c7d2fe',
+            color: '#d4d4d4',
             display: 'flex',
             alignItems: 'flex-start',
             gap: '8px'
           }}
         >
-          <AlertCircle size={15} style={{ flexShrink: 0, marginTop: '2px', color: '#818cf8' }} />
+          <AlertCircle size={15} style={{ flexShrink: 0, marginTop: '2px', color: '#c23351' }} />
           <span>
-            <strong>Aptech SRS Notice:</strong> This cart demonstrates client-side JavaScript billing calculations. Actual checkout and online payment processing are disabled.
+            <strong style={{ color: '#ffffff' }}>Aptech SRS Notice:</strong> This cart demonstrates client-side JavaScript billing calculations. Actual checkout and online payment processing are disabled.
           </span>
         </div>
 
@@ -98,12 +99,12 @@ export default function CartDrawer({
                     </button>
                   </div>
 
-                  <div style={{ fontSize: '0.78rem', color: '#818cf8', margin: '4px 0' }}>
+                  <div style={{ fontSize: '0.78rem', color: '#c23351', margin: '4px 0' }}>
                     {item.franchise || item.category?.toUpperCase()}
                   </div>
 
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <span style={{ fontWeight: 700, color: '#2ed573', fontSize: '0.95rem' }}>
+                    <span style={{ fontWeight: 700, color: '#f5f5f5', fontSize: '0.95rem' }}>
                       ${(item.price * item.quantity).toFixed(2)}
                     </span>
 
@@ -148,14 +149,14 @@ export default function CartDrawer({
               <span style={{ color: '#f8fafc' }}>${tax.toFixed(2)}</span>
             </div>
             {discount > 0 && (
-              <div className="cart-calc-row" style={{ color: '#2ed573' }}>
+              <div className="cart-calc-row" style={{ color: '#e28b9c' }}>
                 <span>Fan Club Discount:</span>
                 <span>-${discount.toFixed(2)}</span>
               </div>
             )}
             <div className="cart-total-row">
               <span>Estimated Total:</span>
-              <span style={{ color: '#2ed573' }}>${grandTotal.toFixed(2)}</span>
+              <span style={{ color: '#f5f5f5' }}>${grandTotal.toFixed(2)}</span>
             </div>
 
             <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1.25rem' }}>
